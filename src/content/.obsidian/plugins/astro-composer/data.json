@@ -8,7 +8,7 @@
   "creationMode": "folder",
   "indexFileName": "index",
   "dateFormat": "YYYY-MM-DD",
-  "excludedDirectories": "special",
+  "excludedDirectories": "special|reference",
   "onlyAutomateInPostsFolder": false,
   "enablePages": true,
   "pagesFolder": "pages",
@@ -29,11 +29,11 @@
   "customContentTypes": [
     {
       "id": "custom-1758090445018",
-      "name": "Projects",
-      "folder": "projects",
+      "name": "Videogames",
+      "folder": "videogames",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ndate: {{date}}\ncategories: []\nrepositoryUrl: \"\"\ndemoURL: \"\"\nstatus: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\nnoIndex: false\nfeatured: false\n---\n",
       "enabled": true,
-      "linkBasePath": "/projects/",
+      "linkBasePath": "/videogames/",
       "creationMode": "folder",
       "indexFileName": "index"
     },
@@ -42,7 +42,7 @@
       "name": "Docs",
       "folder": "docs",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ncategory: \"\"\norder: 0\nlastModified: {{date}}\nversion: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\ndraft: false\nnoIndex: false\nfeatured: false\n---\n",
-      "enabled": true,
+      "enabled": false,
       "linkBasePath": "/docs/",
       "creationMode": "folder",
       "indexFileName": "index"
