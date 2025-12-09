@@ -10,7 +10,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 El telecine es un proceso para convertir una imagen registrada en un soporte fotoquímico, una imagen sobre película cinematográfica, una imagen electrónica o una imagen de vídeo a un estándar de TV. También se le conoce como el equipamiento mecánico usado para este fin.
 
