@@ -1,6 +1,13 @@
 {
   "nodes": [
     {
+      "id": "anamorphico-en-premiere-pro",
+      "type": "post",
+      "title": "Anamorphico en Premiere Pro",
+      "slug": "anamorphico-en-premiere-pro",
+      "connections": 0
+    },
+    {
       "id": "formatting-reference",
       "type": "post",
       "title": "Formatting Reference",
@@ -15,6 +22,13 @@
       "connections": 6
     },
     {
+      "id": "my-vault-cms-guide",
+      "type": "post",
+      "title": "My Vault CMS Guide",
+      "slug": "my-vault-cms-guide",
+      "connections": 0
+    },
+    {
       "id": "obsidian-embeds-demo",
       "type": "post",
       "title": "Obsidian Embeds Demo",
@@ -26,13 +40,6 @@
       "type": "post",
       "title": "Sample Folder-Based Post",
       "slug": "sample-folder-based-post",
-      "connections": 0
-    },
-    {
-      "id": "vault-cms-guide",
-      "type": "post",
-      "title": "Vault CMS Guide",
-      "slug": "vault-cms-guide",
       "connections": 0
     }
   ],
@@ -54,7 +61,7 @@
     },
     {
       "source": "formatting-reference",
-      "target": "vault-cms-guide",
+      "target": "my-vault-cms-guide",
       "type": "link"
     },
     {
@@ -89,7 +96,7 @@
     },
     {
       "source": "getting-started",
-      "target": "vault-cms-guide",
+      "target": "my-vault-cms-guide",
       "type": "link"
     },
     {
@@ -99,7 +106,7 @@
     },
     {
       "source": "getting-started",
-      "target": "vault-cms-guide",
+      "target": "my-vault-cms-guide",
       "type": "link"
     },
     {
@@ -109,7 +116,7 @@
     },
     {
       "source": "getting-started",
-      "target": "vault-cms-guide",
+      "target": "my-vault-cms-guide",
       "type": "link"
     },
     {
@@ -119,9 +126,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 5,
+    "totalPosts": 6,
     "totalConnections": 16,
     "maxNodesApplied": false,
-    "originalNodeCount": 5
+    "originalNodeCount": 6
   }
 }

@@ -1,5 +1,5 @@
 {
-  "runWizardOnStartup": true,
+  "runWizardOnStartup": false,
   "currentTemplate": "standard",
   "currentTheme": "ayu",
   "customThemeFile": "custom",
@@ -12,12 +12,12 @@
     }
   },
   "siteInfo": {
-    "site": "https://perezbalen.github.io",
+    "site": "https://perezbalen.github.io/astro_jrp/",
     "title": "José Rafael Pérez",
     "description": "A blog.",
     "author": "José Rafael Pérez",
     "language": "en",
-    "faviconThemeAdaptive": true,
+    "faviconThemeAdaptive": false,
     "defaultOgImageAlt": "Astro Modular logo."
   },
   "layout": {
@@ -55,10 +55,6 @@
       {
         "title": "About",
         "url": "/about/"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball/astro-modular"
       }
     ],
     "social": [
