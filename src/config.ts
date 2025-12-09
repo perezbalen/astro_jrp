@@ -181,13 +181,13 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://perezbalen.github.io",
   // [CONFIG:SITE_TITLE]
-  title: "Ryan Bose",
+  title: "José Rafael Pérez",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "A blog.",
   // [CONFIG:SITE_AUTHOR]
-  author: "Ryan Bose",
+  author: "José Rafael Pérez",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
@@ -314,10 +314,7 @@ export const siteConfig: SiteConfig = {
       { title: "Posts", url: "/posts/" },
       { title: "Projects", url: "/projects/" },
       { title: "Docs", url: "/docs/" },
-      { title: "About", url: "/about/",
-        children: [
-          { title: "Privacy Policy", url: "/privacy-policy/" }
-        ] },
+      { title: "About", url: "/about/" },
       { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]

@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Ryan Bose",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "Ryan Bose",
+    "site": "https://perezbalen.github.io",
+    "title": "José Rafael Pérez",
+    "description": "A blog.",
+    "author": "José Rafael Pérez",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -54,13 +54,7 @@
       },
       {
         "title": "About",
-        "url": "/about/",
-        "children": [
-          {
-            "title": "Privacy Policy",
-            "url": "/privacy-policy/"
-          }
-        ]
+        "url": "/about/"
       },
       {
         "title": "GitHub",
@@ -163,6 +157,7 @@
   },
   "features": {
     "commandPalette": true,
+    "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
     "linkedMentionsCompact": false,
@@ -174,6 +169,9 @@
     "profilePicture": false,
     "comments": false,
     "featureButton": "mode",
+    "showPostCardCoverImages": "featured-and-posts",
+    "postCardAspectRatio": "og",
+    "customPostCardAspectRatio": "2.5/1",
     "quickActions": {
       "enabled": true,
       "toggleMode": true,
