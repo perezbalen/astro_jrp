@@ -622,7 +622,7 @@ The vault provides:
 - **Optional CSS snippets** to customize your experience
 - **Custom hotkeys** for accelerating post creation and publishing
 
-Read [the guide](../posts/my-vault-cms-guide.md) for more detailed information.
+Read [the guide](../reference/my-vault-cms-guide.md) for more detailed information.
 
 To remove Obsidian, simply delete the `.obsidian` folder.
 
@@ -681,7 +681,7 @@ Common issues:
 
 1. **Customize** `src/config.ts`
 2. **Write** your first post
-3. **Explore** [Formatting Reference](../posts/formatting-reference.md)
+3. **Explore** [Formatting Reference](../reference/formatting-reference.md)
 4. **Set up** Obsidian vault workflow
 5. **Deploy** and share
 

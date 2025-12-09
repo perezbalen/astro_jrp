@@ -59,4 +59,8 @@ This methodology hopefully ensures that adventure game scenes are not only engag
 
 After thinking about this for a while, I decided to implement this approach to see if it was effective, and the result is the game demo R2’s Quest.
 
-Check the demo game at: [https://perezbalen.itch.io/r2quest](https://perezbalen.itch.io/r2quest)
+Check the demo game at: 
+
+<a href="https://perezbalen.itch.io/r2quest" class="no-styling no-underline" target="_blank"><button class="btn btn-primary w-full">  
+    R2 Quest 
+  </button></a>
