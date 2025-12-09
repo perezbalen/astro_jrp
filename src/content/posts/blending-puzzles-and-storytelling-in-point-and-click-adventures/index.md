@@ -11,6 +11,8 @@ hideTOC: false
 targetKeyword: ""
 draft: false
 ---
+## R2 Quest
+
 ![](R2-Quest-1.jpg)
 
 I have a strong fondness for point-and-click adventure games. Although there have been many recent indie titles in this genre, I can’t help but feel that progress has stagnated since the days of “Grim Fandango.”
