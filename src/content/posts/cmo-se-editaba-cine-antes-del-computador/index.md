@@ -10,7 +10,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 Una mirada a los procesos de montaje de celuloide, predominantes en el siglo XX, antes del paso a la edición no lineal mediante equipos computacionales.
 

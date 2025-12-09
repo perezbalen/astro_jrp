@@ -1,7 +1,7 @@
 {
   "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "ayu",
+  "currentTheme": "catppuccin",
   "customThemeFile": "custom",
   "contentOrganization": "folder-based",
   "themeColors": {
@@ -12,7 +12,7 @@
     }
   },
   "siteInfo": {
-    "site": "https://perezbalen.github.io/astro_jrp/",
+    "site": "https://joserafaelperez.com",
     "title": "José Rafael Pérez",
     "description": "A blog.",
     "author": "José Rafael Pérez",
@@ -232,7 +232,25 @@
     "projects": true,
     "docs": true
   },
-  "availableThemes": "default",
+  "availableThemes": [
+    "oxygen",
+    "minimal",
+    "atom",
+    "ayu",
+    "catppuccin",
+    "charcoal",
+    "dracula",
+    "everforest",
+    "flexoki",
+    "gruvbox",
+    "macos",
+    "nord",
+    "obsidian",
+    "rose-pine",
+    "sky",
+    "solarized",
+    "things"
+  ],
   "customThemes": "",
   "customThemeGenerationEnabled": false,
   "removeRibbonIcon": false

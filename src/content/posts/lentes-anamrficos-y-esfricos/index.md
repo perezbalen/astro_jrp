@@ -10,7 +10,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 Una mirada comparativa a los lentes anamórficos y esféricos.
 

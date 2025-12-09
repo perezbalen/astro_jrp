@@ -10,7 +10,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 Cuando pensamos en el **plano desarrollado** (plano secuencia), nuestra mente tiende hacia las tomas largas que duran casi toda (o toda) la escena. Pero esta no es la única opción.
 
