@@ -2,6 +2,8 @@
 node_modules/
 .pnpm-store/
 
+AppLauncher.config
+
 # Build
 dist/
 .astro/
