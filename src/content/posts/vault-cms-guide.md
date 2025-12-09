@@ -1,5 +1,5 @@
 ---
-title: Vault CMS Guide
+title: jrp Vault CMS Guide
 date: 2025-09-10
 description: How to use this Obsidian vault as a content management system.
 tags:
