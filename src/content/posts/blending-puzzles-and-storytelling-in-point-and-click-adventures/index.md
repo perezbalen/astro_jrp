@@ -4,7 +4,7 @@ date: 2025-12-09
 description: ""
 tags: []
 image: R2-Quest-0.jpg
-imageAlt: ""
+imageAlt: Star Destroyer
 imageOG: false
 hideCoverImage: false
 hideTOC: false
