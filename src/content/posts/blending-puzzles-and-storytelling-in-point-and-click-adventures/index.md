@@ -1,8 +1,9 @@
 ---
 title: Blending Puzzles and Storytelling in Point-and-Click Adventures
 date: 2025-12-09
-description: ""
-tags: []
+description: I have a strong fondness for point-and-click adventure games. Although there have been many recent indie titles in this genre, I can’t help but feel that progress has stagnated since the days of “Grim Fandango.”
+tags:
+  - videogames
 image: R2-Quest-0.jpg
 imageAlt: Star Destroyer
 imageOG: false

@@ -4,7 +4,7 @@ date: 2024-09-23
 description: ""
 tags:
   - técnicas_de_rodaje
-image: "[](orden-de-operaciones-en-el-set.png)"
+image: orden-de-operaciones-en-el-set.png
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

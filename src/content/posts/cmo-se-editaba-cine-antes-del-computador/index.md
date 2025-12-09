@@ -4,8 +4,8 @@ date: 2021-04-09
 description: ""
 tags:
   - teroría
-image: "[](cmo-se-editaba-cine-antes-del-computador.png)"
-imageAlt: ""
+image: como-se-editaba-cine.png
+imageAlt: Fight Club
 imageOG: false
 hideCoverImage: false
 hideTOC: false

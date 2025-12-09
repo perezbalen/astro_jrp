@@ -4,7 +4,7 @@ date: 2023-09-19
 description: ""
 tags:
   - teroría
-image: "[](composicin-anamrfica.jpg)"
+image: composicin-anamrfica.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

@@ -4,7 +4,7 @@ date: 2022-04-27
 description: ""
 tags:
   - teroría
-image: "[](planos-desarrollados-cortos.png)"
+image: planos-desarrollados-cortos.png
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

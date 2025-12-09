@@ -4,7 +4,7 @@ date: 2022-04-17
 description: ""
 tags:
   - tutorial
-image: "[](color-de-la-luz-del-da-y-la-noche.png)"
+image: color-de-la-luz-del-da-y-la-noche.png
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

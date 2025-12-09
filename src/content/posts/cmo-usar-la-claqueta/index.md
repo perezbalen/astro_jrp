@@ -4,7 +4,7 @@ date: 2023-09-22
 description: ""
 tags:
   - técnicas_de_rodaje
-image: "[](claqueta.jpg)"
+image: claqueta.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

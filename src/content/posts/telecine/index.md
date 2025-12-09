@@ -4,7 +4,7 @@ date: 2025-12-09
 description: ""
 tags:
   - teroría
-image: "[](Telecine.png)"
+image: Telecine.png
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

@@ -4,7 +4,7 @@ date: 2025-12-09
 description: ""
 tags:
   - videogames
-image: "[](full-throttle-0.jpg)"
+image: full-throttle-0.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

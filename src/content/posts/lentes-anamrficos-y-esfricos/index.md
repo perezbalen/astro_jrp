@@ -4,7 +4,7 @@ date: 2021-08-23
 description: ""
 tags:
   - teroría
-image: "[](lentes-anamrficos-y-esfricos.jpg)"
+image: lentes-anamrficos-y-esfricos.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

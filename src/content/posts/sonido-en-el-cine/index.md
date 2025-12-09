@@ -4,7 +4,7 @@ date: 2022-06-09
 description: ""
 tags:
   - teroría
-image: "[](sonido-en-el-cine.jpg)"
+image: sonido-en-el-cine.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
