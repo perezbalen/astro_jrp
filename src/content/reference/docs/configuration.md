@@ -49,7 +49,7 @@ pnpm build
 > [!Important] Important
 > If you're using Obsidian, you may be able to skip most of this and just jump in with the Astro Modular Settings Obsidian plugin. It has a wizard that walks you through site setup on startup and lets you tweak and manage practically everything covered here. 
 > 
-> If this applies to you, you can jump right to the [Content Structure](docs/configuration.md#Content%20Structure) section.
+> If this applies to you, you can jump right to the [Content Structure](configuration.md#Content%20Structure) section.
 
 ### Core Settings
 
@@ -622,7 +622,7 @@ The vault provides:
 - **Optional CSS snippets** to customize your experience
 - **Custom hotkeys** for accelerating post creation and publishing
 
-Read [the guide](../reference/my-vault-cms-guide.md) for more detailed information.
+Read [the guide](../my-vault-cms-guide.md) for more detailed information.
 
 To remove Obsidian, simply delete the `.obsidian` folder.
 
@@ -681,7 +681,7 @@ Common issues:
 
 1. **Customize** `src/config.ts`
 2. **Write** your first post
-3. **Explore** [Formatting Reference](../reference/formatting-reference.md)
+3. **Explore** [Formatting Reference](../formatting-reference.md)
 4. **Set up** Obsidian vault workflow
 5. **Deploy** and share
 

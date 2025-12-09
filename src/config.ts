@@ -207,9 +207,9 @@ export const siteConfig: SiteConfig = {
     source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Open Sans",      // Body text font family
+      body: "Lora",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Montserrat",   // Heading font family  
+      heading: "Lato",   // Heading font family  
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -311,9 +311,8 @@ export const siteConfig: SiteConfig = {
     showMobileMenu: true,
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
-      { title: "Posts", url: "/posts/" },
-      { title: "Projects", url: "/projects/" },
-      { title: "Docs", url: "/docs/" },
+      { title: "Lecturas Complementarias", url: "/lecturas-complementarias/" },
+      { title: "Videogames", url: "/videogames/" },
       { title: "About", url: "/about/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]

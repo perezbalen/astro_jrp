@@ -20,7 +20,7 @@ aliases:
 ---
 ## Project Overview
 
-Astro Composer is an Obsidian plugin that turns your Obsidian notes into posts and pages for your Astro blog with automated content management features. Part of the [Vault CMS](projects/vault-cms/index.md) project, it provides seamless integration between Obsidian note-taking and Astro publishing workflows.
+Astro Composer is an Obsidian plugin that turns your Obsidian notes into posts and pages for your Astro blog with automated content management features. Part of the [Vault CMS](../reference/vault-cms/index.md) project, it provides seamless integration between Obsidian note-taking and Astro publishing workflows.
 
 ## Key Features
 

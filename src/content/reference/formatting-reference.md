@@ -9,7 +9,7 @@ tags:
   - reference
   - meta
   - blog
-image: "[[attachments/mountains.png]]"
+image: "[[../lecturas-complementarias/attachments/mountains.png]]"
 imageAlt: Mountains and water.
 imageOG: false
 hideCoverImage: false
@@ -113,7 +113,7 @@ You can make callouts collapsible by adding `+` (expanded by default) or `-` (co
 
 #### Single Image With Caption
 
-![Mountains](/posts/attachments/mountains.png)
+![Mountains](../lecturas-complementarias/attachments/mountains.png)
 *Photo by [Antoine Rault](https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
 
 #### Multiple Image Layouts
@@ -152,7 +152,7 @@ On mobile devices, all layouts switch to a single column for better readability.
 
 ### Linked Images
 
-[![Mountains](/posts/attachments/mountains.png)](https://obsidian.md)
+[![Mountains](../lecturas-complementarias/attachments/mountains.png)](https://obsidian.md)
 
 ```
 [![Mountains](/posts/attachments/mountains.png)](https://obsidian.md)
