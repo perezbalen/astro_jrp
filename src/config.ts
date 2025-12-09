@@ -181,7 +181,7 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://perezbalen.github.io",
+  site: "https://perezbalen.github.io/astro_jrp",
   // [CONFIG:SITE_TITLE]
   title: "José Rafael Pérez",
   // [CONFIG:SITE_DESCRIPTION]
