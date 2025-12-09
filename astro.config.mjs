@@ -29,7 +29,8 @@ const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || 'netlify';
 
 export default defineConfig({
   site: siteConfig.site,
-  base: '/astro_jrp',
+  // Serve at domain root (no subpath) so assets resolve correctly on custom domain
+  base: '/',
   deployment: {
     platform: DEPLOYMENT_PLATFORM
   },
