@@ -6,7 +6,7 @@ tags:
   - obsidian
   - tutorial
   - formatting
-image: "[[../lecturas-complementarias/attachments/galaxy.png]]"
+image: "[[../posts/attachments/galaxy.png]]"
 imageAlt: Galaxy
 imageOG: false
 hideCoverImage: false
@@ -22,19 +22,19 @@ aliases:
 
 ### Video Files
 
-![[../lecturas-complementarias/attachments/video.mp4|Eye drop video]]
+![[../posts/attachments/video.mp4|Eye drop video]]
 
 Video files are embedded as HTML5 video players with controls and responsive design.
 
 ### Audio Files
 
-![[../lecturas-complementarias/attachments/sound.wav|sound.wav]]
+![[../posts/attachments/sound.wav|sound.wav]]
 
 Audio files are embedded as HTML5 audio players with controls and filename display.
 
 ### PDF Documents
 
-![[../lecturas-complementarias/attachments/document.pdf|document.pdf]]
+![[../posts/attachments/document.pdf|document.pdf]]
 
 PDFs are embedded as inline viewers with download links.
 

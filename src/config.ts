@@ -218,7 +218,7 @@ export const siteConfig: SiteConfig = {
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "45rem",
+    contentWidth: "75rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
@@ -311,7 +311,7 @@ export const siteConfig: SiteConfig = {
     showMobileMenu: true,
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
-      { title: "Lecturas Complementarias", url: "/lecturas-complementarias/" },
+      { title: "Lecturas Complementarias", url: "/posts/" },
       { title: "Videogames", url: "/videogames/" },
       { title: "About", url: "/about/" }
     ],

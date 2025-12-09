@@ -8,7 +8,7 @@ tags:
   - quick-start
   - astro
   - blog
-image: "[[../lecturas-complementarias/attachments/sunset.png]]"
+image: "[[../posts/attachments/sunset.png]]"
 imageAlt: Sunset skyline.
 imageOG: true
 hideCoverImage: false

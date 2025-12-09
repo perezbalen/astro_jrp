@@ -215,3 +215,7 @@ views:
     imageAspectRatio: 0.55
     maxTagsToShow: 2
     hideQuickEditIcon: true
+  - type: table
+    name: View
+  - type: bases-cms
+    name: videogames

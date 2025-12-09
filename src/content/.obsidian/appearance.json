@@ -6,5 +6,7 @@
     "astro-modular-styling"
   ],
   "theme": "system",
-  "accentColor": "#3371b9"
+  "accentColor": "#3371b9",
+  "textFontFamily": "Calluna",
+  "monospaceFontFamily": "JetBrains Mono"
 }
