@@ -63,13 +63,8 @@
     ],
     "social": [
       {
-        "title": "X",
-        "url": "https://x.com/davidvkimball",
-        "icon": "x-twitter"
-      },
-      {
         "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
+        "url": "https://github.com/perezbalen",
         "icon": "github"
       }
     ]
@@ -180,8 +175,8 @@
     }
   },
   "typography": {
-    "headingFont": "Inter",
-    "proseFont": "Inter",
+    "headingFont": "Montserrat",
+    "proseFont": "Open Sans",
     "monoFont": "JetBrains Mono",
     "fontSource": "local",
     "fontDisplay": "swap",
@@ -221,7 +216,7 @@
     }
   },
   "deployment": {
-    "platform": "vercel"
+    "platform": "github-pages"
   },
   "pluginConfig": {
     "obsidianSettings": {

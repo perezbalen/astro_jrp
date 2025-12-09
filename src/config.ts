@@ -207,9 +207,9 @@ export const siteConfig: SiteConfig = {
     source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Inter",      // Body text font family
+      body: "Open Sans",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Inter",   // Heading font family  
+      heading: "Montserrat",   // Heading font family  
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -242,7 +242,7 @@ export const siteConfig: SiteConfig = {
   featureButton: "mode", // "mode" | "graph" | "theme" | "none"
   deployment: {
     // [CONFIG:DEPLOYMENT_PLATFORM]
-    platform: "vercel", // "netlify" | "vercel" | "github-pages" | "cloudflare-workers" - sets redirect configuration for the chosen platform (Cloudflare Workers uses Workers-compatible config)
+    platform: "github-pages", // "netlify" | "vercel" | "github-pages" | "cloudflare-workers" - sets redirect configuration for the chosen platform (Cloudflare Workers uses Workers-compatible config)
   },
 
   // Command Palette
@@ -320,13 +320,8 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
-        title: "X",
-        url: "https://x.com/davidvkimball",
-        icon: "x-twitter",
-      },
-      {
         title: "GitHub",
-        url: "https://github.com/davidvkimball",
+        url: "https://github.com/perezbalen",
         icon: "github",
       },
     ],
