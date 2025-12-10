@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 64px;
     font-size: clamp(2rem, 4vw + 1rem, 4rem) !important; /* min 32px, fluid, max 64px */
-    text-align: center;
+    
 }
 
 h2 {
@@ -22,7 +22,7 @@ h3 {
     font-size: clamp(1rem, 2.2vw + 0.2rem, 1.75rem) !important; /* min 16px, fluid, max 28px */
 }
 
-p {
+p, image-caption-container {
     margin: 0 0 3.6em ;
     margin-block-start: 1em !important;
     margin-block-end: 1em !important;

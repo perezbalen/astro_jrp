@@ -1,11 +1,11 @@
 {
   "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "custom",
+  "currentTheme": "catppuccin",
   "customThemeFile": "yellow-theme",
   "contentOrganization": "folder-based",
   "themeColors": {
-    "mode": "advanced",
+    "mode": "simple",
     "simpleColors": {
       "accent": "#ffaa33",
       "background": "#1c212c"
@@ -90,7 +90,7 @@
     ]
   },
   "commandPalette": {
-    "enabled": true,
+    "enabled": false,
     "shortcut": "ctrl+K",
     "placeholder": "Search posts",
     "search": {
@@ -113,7 +113,7 @@
   },
   "homeOptions": {
     "featuredPost": {
-      "enabled": true,
+      "enabled": false,
       "type": "latest",
       "slug": "getting-started"
     },
@@ -126,7 +126,7 @@
       "count": 2
     },
     "docs": {
-      "enabled": true,
+      "enabled": false,
       "count": 3
     },
     "blurb": {
@@ -143,14 +143,14 @@
       "linkedMentionsCompact": false
     },
     "graphView": {
-      "enabled": true,
+      "enabled": false,
       "showInSidebar": true,
       "maxNodes": 100,
       "showOrphanedPosts": true
     },
     "postNavigation": true,
-    "showPostCardCoverImages": "featured-and-posts",
-    "postCardAspectRatio": "og",
+    "showPostCardCoverImages": "all",
+    "postCardAspectRatio": "custom",
     "customPostCardAspectRatio": "2.5/1",
     "comments": {
       "enabled": false,
@@ -171,12 +171,12 @@
     }
   },
   "features": {
-    "commandPalette": true,
+    "commandPalette": false,
     "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
     "linkedMentionsCompact": false,
-    "graphView": true,
+    "graphView": false,
     "postNavigation": true,
     "hideScrollBar": false,
     "scrollToTop": true,
@@ -184,8 +184,8 @@
     "profilePicture": false,
     "comments": false,
     "featureButton": "mode",
-    "showPostCardCoverImages": "featured-and-posts",
-    "postCardAspectRatio": "og",
+    "showPostCardCoverImages": "all",
+    "postCardAspectRatio": "custom",
     "customPostCardAspectRatio": "2.5/1",
     "quickActions": {
       "enabled": true,
