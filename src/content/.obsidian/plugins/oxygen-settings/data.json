@@ -23,7 +23,7 @@
   "labeledNav": false,
   "fullWidthMedia": true,
   "hideTitleBarOnHover": false,
-  "workspaceBorders": "enhanced",
+  "workspaceBorders": "none",
   "minimalStatus": true,
   "focusMode": false,
   "underlineInternal": true,

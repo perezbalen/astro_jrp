@@ -2,7 +2,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600 !important;  
     text-transform: uppercase; 
-    margin-bottom: 3.6em !important;
+    margin-bottom: 36px !important;
 }
 
 h1 {

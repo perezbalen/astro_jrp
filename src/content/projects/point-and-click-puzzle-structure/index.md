@@ -38,7 +38,9 @@ Let’s look at each element.
 I will present examples from the second section of Full Throttle, where Maureen is helping Ben fix his motorcycle. You may want to refresh your memory by replaying that section.
 
 ### **Setup**:
+
 ![](full-throttle-1.jpg)
+
 
 A situation is presented to the player, establishing the initial context and environment where the puzzle takes place. It introduces the key components, characters, or objects that will be relevant to solving the puzzle, while also setting the scene’s atmosphere and providing essential background information that frames the challenge ahead.
 
@@ -101,6 +103,7 @@ When the obstacle is presented, the player expects that overcoming it will give 
 
 ![](full-throttle-2.jpg)
 
+
 The obstacle appears alongside a clue that guides the player toward the correct solution. While showing what won’t work, the game subtly points players to where they should look to solve the puzzle.
 
 I found that enjoyable puzzles don’t just say, “open the door.” They say, “I don’t know where the key is.” I believe that presenting a clue at the same time as presenting the puzzle helps the player arrive more easily to the correct path, instead of trying myriads of possibilities and getting frustrated as most won’t work.
@@ -140,6 +143,7 @@ Puzzle games are logic games. Logic is what the player wants from this type of g
 
 ![](full-throttle-3.jpg)
 
+
 The actual solution to the puzzle requires creative thinking that logically fits the situation, considering the character’s available tools, the provided hint, and the reasons why the previos attempts failed.
 
 I like to think of this as “Hint + Bad Plan”. Why can this particular locked door only be opened in this specific way? When you find the solution, it should feel obvious and inevitable. Like a good twist. And like a good twist, for it to work, you need to foreshadow it. The Hint after the Obstacle helps with that feeling of “I should’ve seen it from the start.”
@@ -165,6 +169,7 @@ When players solve the puzzle, they overcome the Obstacle. But we’re here for 
 ## Final Thoughts
 
 ![](full-throttle-4.jpg)
+
 
 One thing I’ve noticed is that the distance between Obstacle and Success is fairly short. There’s usually one or two things that need to be done for the character to achieve their goal.
 
