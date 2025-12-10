@@ -46,7 +46,7 @@
     "author": "José Rafael Pérez",
     "language": "en",
     "faviconThemeAdaptive": false,
-    "defaultOgImageAlt": "Astro Modular logo."
+    "defaultOgImageAlt": "Atari logo."
   },
   "layout": {
     "contentWidth": "52rem"
@@ -61,7 +61,7 @@
     "showSocialIconsInFooter": true
   },
   "seo": {
-    "defaultOgImageAlt": "Astro Modular logo."
+    "defaultOgImageAlt": "Atari logo."
   },
   "navigation": {
     "showNavigation": true,
@@ -178,7 +178,7 @@
     "linkedMentionsCompact": false,
     "graphView": false,
     "postNavigation": true,
-    "hideScrollBar": false,
+    "hideScrollBar": true,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,
@@ -254,7 +254,7 @@
   },
   "optionalContentTypes": {
     "projects": true,
-    "docs": true
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",
