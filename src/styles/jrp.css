@@ -14,3 +14,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size-adjust: 1.2em;
     text-transform: uppercase !important; 
 }
+
+h2 {
+    margin-bottom: 3.6rem !important;
+    font-size: 3.5rem !important;
+}
+
+p {
+    margin: 0 0 3.6rem !important;
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    unicode-bidi: isolate !important;
+    font-size: 1.6em !important;
+    font-weight: 400 !important;
+    line-height: 1.88 !important;
+}
