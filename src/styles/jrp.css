@@ -1,36 +1,27 @@
-* {
-    text-shadow: 1px 0px 0px #0d0d0b,
-    0px 1px 0px #0d0d0b,
-    2px 1px 0px #0d0d0b,
-    1px 2px 0px #0d0d0b,
-    2px 3px 0px #0d0d0b,
-    3px 2px 0px #0d0d0b;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;  
+    font-weight: 600 !important;  
     text-transform: uppercase; 
-    margin-bottom: 3.6em;
+    margin-bottom: 3.6em !important;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 64px !important;
     text-align: center;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 35px !important;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 28px !important;
 }
 
 p {
     margin: 0 0 3.6em ;
-    margin-block-start: 1em ;
-    margin-block-end: 1em ;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
     margin-inline-start: 0px ;
     margin-inline-end: 0px ;
     font-size: 16px ;
