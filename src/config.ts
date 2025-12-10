@@ -201,20 +201,20 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:CUSTOM_THEME_FILE]
   customThemeFile: "custom", // Only used if theme is set to "custom" above. Filename in src/themes/custom/ (without .ts extension)
   // [CONFIG:AVAILABLE_THEMES]
-  availableThemes: ["oxygen", "minimal", "atom", "ayu", "catppuccin", "charcoal", "dracula", "everforest", "flexoki", "gruvbox", "macos", "nord", "obsidian", "rose-pine", "sky", "solarized", "things"], // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
+  availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Lora",      // Body text font family
+      body: "",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Lato"Josefin Sans""Josefin Sans""Josefin Sans""Josefin Sans"",   // Heading font family  
+      heading: ""Josefin Sans""Josefin Sans""Josefin Sans""Josefin Sans"",   // Heading font family  
       // [CONFIG:FONT_MONO]
-      mono: "JetBrains Mono"JetBrains Mono""JetBrains Mono""JetBrains Mono""JetBrains Mono"", // Monospace font family
+      mono: ""JetBrains Mono""JetBrains Mono""JetBrains Mono""JetBrains Mono"", // Monospace font family
     },
     // [CONFIG:FONT_DISPLAY]
-    display: "swap", // Font display strategy: "swap" (recommended), "fallback", or "optional"
+    display: "optional", // Font display strategy: "swap" (recommended), "fallback", or "optional"
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]

@@ -167,11 +167,11 @@
     }
   },
   "typography": {
-    "headingFont": "Lato",
-    "proseFont": "Lora",
-    "monoFont": "JetBrains Mono",
-    "fontSource": "local",
-    "fontDisplay": "swap",
+    "headingFont": "Cascadia Code",
+    "proseFont": "Cascadia Code",
+    "monoFont": "Cascadia Code",
+    "fontSource": "cdn",
+    "fontDisplay": "optional",
     "customFonts": {
       "heading": "",
       "prose": "",
@@ -228,25 +228,7 @@
     "projects": true,
     "docs": true
   },
-  "availableThemes": [
-    "oxygen",
-    "minimal",
-    "atom",
-    "ayu",
-    "catppuccin",
-    "charcoal",
-    "dracula",
-    "everforest",
-    "flexoki",
-    "gruvbox",
-    "macos",
-    "nord",
-    "obsidian",
-    "rose-pine",
-    "sky",
-    "solarized",
-    "things"
-  ],
+  "availableThemes": "default",
   "customThemes": "",
   "customThemeGenerationEnabled": false,
   "removeRibbonIcon": false
