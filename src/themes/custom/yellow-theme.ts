@@ -26,14 +26,5 @@ export const yellow-themeTheme = {
     700: "#ffaa33",
     800: "#ffaa33",
     900: "#ffaa33"
-  },
-
-  *: {
-        text-shadow: 1px 0px 0px #0d0d0b,
-        0px 1px 0px #0d0d0b,
-        2px 1px 0px #0d0d0b,
-        1px 2px 0px #0d0d0b,
-        2px 3px 0px #0d0d0b,
-        3px 2px 0px #0d0d0b;
   }
 };
