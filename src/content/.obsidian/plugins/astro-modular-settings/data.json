@@ -170,7 +170,7 @@
     "headingFont": "Cascadia Code",
     "proseFont": "Cascadia Code",
     "monoFont": "Cascadia Code",
-    "fontSource": "cdn",
+    "fontSource": "local",
     "fontDisplay": "optional",
     "customFonts": {
       "heading": "",
