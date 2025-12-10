@@ -40,7 +40,7 @@ I will present examples from the second section of Full Throttle, where Maureen 
 ### **Setup**:
 
 ![](full-throttle-1.jpg)
-
+<!-- No image comment -->
 
 A situation is presented to the player, establishing the initial context and environment where the puzzle takes place. It introduces the key components, characters, or objects that will be relevant to solving the puzzle, while also setting the scene’s atmosphere and providing essential background information that frames the challenge ahead.
 
@@ -102,7 +102,7 @@ When the obstacle is presented, the player expects that overcoming it will give 
 ### **Hint**:
 
 ![](full-throttle-2.jpg)
-
+<!-- No image comment -->
 
 The obstacle appears alongside a clue that guides the player toward the correct solution. While showing what won’t work, the game subtly points players to where they should look to solve the puzzle.
 
@@ -142,7 +142,7 @@ Puzzle games are logic games. Logic is what the player wants from this type of g
 ### **Good Plan**:
 
 ![](full-throttle-3.jpg)
-
+<!-- No image comment -->
 
 The actual solution to the puzzle requires creative thinking that logically fits the situation, considering the character’s available tools, the provided hint, and the reasons why the previos attempts failed.
 
@@ -169,7 +169,7 @@ When players solve the puzzle, they overcome the Obstacle. But we’re here for 
 ## Final Thoughts
 
 ![](full-throttle-4.jpg)
-
+<!-- No image comment -->
 
 One thing I’ve noticed is that the distance between Obstacle and Success is fairly short. There’s usually one or two things that need to be done for the character to achieve their goal.
 
