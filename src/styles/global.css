@@ -2,7 +2,7 @@
 /* KaTeX Math Rendering - Must be first */
 @import 'katex/dist/katex.css';
 
-@import 'jrp.css'
+@import 'jrp.css';
 
 @tailwind base;
 @tailwind components;
@@ -13,8 +13,6 @@
   font-size: 1.1em;
   color: rgb(var(--color-foreground));
 }
-
-
 
 /* Fix KaTeX SVG sizing issues - constrain the problematic 400em width */
 .katex svg {
