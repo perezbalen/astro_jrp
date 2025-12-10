@@ -33,3 +33,10 @@ p, image-caption-container {
     line-height: 1.88 !important;
     text-align: left;
 }
+
+text-xs,
+text-primary-600, mr-2,
+mb-1
+{
+    font-family: "Josefin Sans", sans-serif !important;
+}
