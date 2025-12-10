@@ -34,9 +34,7 @@ p, image-caption-container {
     text-align: left;
 }
 
-text-xs,
-text-primary-600, mr-2,
-mb-1
+.nav-text
 {
     font-family: "Josefin Sans", sans-serif !important;
 }
