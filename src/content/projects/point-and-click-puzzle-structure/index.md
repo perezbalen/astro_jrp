@@ -1,7 +1,7 @@
 ---
 title: Point and Click Puzzle Structure
 date: 2025-12-09
-description: ""
+description: During a recent playthrough of Full Throttle, I had an important realization about my game design approach. My puzzles had grown unnecessarily complex, with intricate logic that not only made development challenging but also raised questions about player enjoyment.
 tags:
   - videogames
 image: full-throttle-0.jpg

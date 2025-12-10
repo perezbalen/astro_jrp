@@ -1,7 +1,7 @@
 ---
 title: Orden de Operaciones en el Set
 date: 2024-09-23
-description: ""
+description: En el complejo mundo del cine, la famosa frase “luces, cámara, acción” va más allá de ser solo un inicio de escena. En este video, nos sumergiremos en el proceso del orden de operación en un set de una película, descubriendo cómo funciona este proceso en la realidad.
 tags:
   - técnicas_de_rodaje
 image: orden-de-operaciones-en-el-set.png

@@ -1,7 +1,7 @@
 ---
 title: Telecine
-date: 2025-12-09
-description: ""
+date: 2020-12-09
+description: El telecine es un proceso para convertir una imagen registrada en un soporte fotoquímico, una imagen sobre película cinematográfica, una imagen electrónica o una imagen de vídeo a un estándar de TV. También se le conoce como el equipamiento mecánico usado para este fin.
 tags:
   - teroría
 image: Telecine.png
