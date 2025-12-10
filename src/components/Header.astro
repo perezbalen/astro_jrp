@@ -34,7 +34,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
   <div class="mx-auto px-4 sm:px-6 lg:px-8" style={`max-width: ${siteConfig.layout.contentWidth}`}>
     <div class="flex items-center justify-between h-16">
       <!-- Logo / Site Title / Profile Picture -->
-      <div class="flex items-center">
+      <div class="nav-logo flex items-center">
         <a href="/" class="hover:opacity-75 transition-opacity">
           {showProfilePicture ? (
             <img
@@ -218,12 +218,12 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
               // Parent item with children - accordion
               return (
                 <div class="mobile-nav-parent" data-mobile-nav-index={index}>
-                  <div class="flex items-center justify-between">
+                  <div class="nav-text flex items-center justify-between">
                     {hasUrl ? (
                       // Clickable parent with expand button
                       <a 
                         href={page.url}
-                        class="flex-1 flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
+                        class="nav-text flex-1 flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
                         target={page.url.startsWith('http') ? '_blank' : undefined}
                         aria-label={`Navigate to ${page.title}`}
                       >
@@ -270,7 +270,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
               return (
                 <a 
                   href={page.url || '#'}
-                  class="flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
+                  class="nav-text flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
                   target={page.url?.startsWith('http') ? '_blank' : undefined}
                   aria-label={`Navigate to ${page.title}`}
                 >
