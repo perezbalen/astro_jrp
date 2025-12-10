@@ -230,7 +230,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:FOOTER_ENABLED]
     enabled: true,
     // [CONFIG:FOOTER_CONTENT]
-    content: `© 2025 {yyyy} {author}.`,
+    content: `© 2025 {author}.`,
     // [CONFIG:FOOTER_SHOW_SOCIAL_ICONS]
     showSocialIconsInFooter: true,
   },
@@ -523,7 +523,8 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
     'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans Pro', 
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
-    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code'
+    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code', 
+    'Domine', 'Josefin Sans'
   ];
   
   const fonts = new Set<string>();

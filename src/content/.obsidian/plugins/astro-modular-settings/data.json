@@ -21,7 +21,7 @@
     "defaultOgImageAlt": "Astro Modular logo."
   },
   "layout": {
-    "contentWidth": "50rem"
+    "contentWidth": "52rem"
   },
   "tableOfContents": {
     "enabled": true,
@@ -29,7 +29,7 @@
   },
   "footer": {
     "enabled": true,
-    "content": "© 2025 {yyyy} {author}.",
+    "content": "© 2025 {author}.",
     "showSocialIconsInFooter": true
   },
   "seo": {
@@ -174,7 +174,7 @@
     "fontDisplay": "optional",
     "customFonts": {
       "heading": "Domine",
-      "prose": "Domine",
+      "prose": "Josefin Sans",
       "mono": "Domine",
       "urls": "https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap, https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
     }
