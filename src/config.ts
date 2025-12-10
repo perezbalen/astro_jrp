@@ -204,21 +204,21 @@ export const siteConfig: SiteConfig = {
   availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Cascadia Code",      // Body text font family
+      body: "Domine",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Cascadia Code",   // Heading font family  
+      heading: "Domine",   // Heading font family  
       // [CONFIG:FONT_MONO]
-      mono: "Cascadia Code", // Monospace font family
+      mono: "Domine", // Monospace font family
     },
     // [CONFIG:FONT_DISPLAY]
     display: "optional", // Font display strategy: "swap" (recommended), "fallback", or "optional"
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "55rem",
+    contentWidth: "50rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
@@ -230,7 +230,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:FOOTER_ENABLED]
     enabled: true,
     // [CONFIG:FOOTER_CONTENT]
-    content: `© 2025 {year} {author}.`,
+    content: `© 2025 {yyyy} {author}.`,
     // [CONFIG:FOOTER_SHOW_SOCIAL_ICONS]
     showSocialIconsInFooter: true,
   },

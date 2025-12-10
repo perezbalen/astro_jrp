@@ -8,6 +8,12 @@ aliases:
   - about-me
   - about-us
 ---
+https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap,https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap
+Josefin Sans
+Domine
+
+https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap, https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap
+
 Welcome to **Astro Modular**, an Astro blog theme template designed for Obsidian users, created by [David V. Kimball](https://davidvkimball.com). This theme turns Obsidian into a powerful CMS for instant blog publishing.
 
 ## Philosophy
