@@ -170,13 +170,13 @@
     "headingFont": "Lato",
     "proseFont": "Lora",
     "monoFont": "JetBrains Mono",
-    "fontSource": "cdn",
+    "fontSource": "local",
     "fontDisplay": "swap",
     "customFonts": {
-      "heading": "Josefin Sans",
-      "prose": "Domine",
-      "mono": "JetBrains Mono",
-      "urls": "https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap,https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
+      "heading": "",
+      "prose": "",
+      "mono": "",
+      "urls": ""
     }
   },
   "optionalFeatures": {
