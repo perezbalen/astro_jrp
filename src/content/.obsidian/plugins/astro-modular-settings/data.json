@@ -1,15 +1,43 @@
 {
   "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "catppuccin",
-  "customThemeFile": "custom",
+  "currentTheme": "custom",
+  "customThemeFile": "yellow-theme",
   "contentOrganization": "folder-based",
   "themeColors": {
-    "mode": "simple",
+    "mode": "advanced",
     "simpleColors": {
-      "accent": "#5865f2",
-      "background": "#1e1e1e"
-    }
+      "accent": "#ffaa33",
+      "background": "#1c212c"
+    },
+    "extractedColors": {
+      "primary": {
+        "50": "#f4f4f5",
+        "100": "#e9e9ea",
+        "200": "#d2d3d6",
+        "300": "#bcbdc1",
+        "400": "#9a9ca2",
+        "500": "#787c83",
+        "600": "#565b65",
+        "700": "#1E2431",
+        "800": "#1c212c",
+        "900": "#171b24",
+        "950": "#12151c"
+      },
+      "highlight": {
+        "50": "#ff990a",
+        "100": "#ff990a",
+        "200": "#ff990a",
+        "300": "#ffaa33",
+        "400": "#ffaa33",
+        "500": "#ffaa33",
+        "600": "#ffaa33",
+        "700": "#ffaa33",
+        "800": "#ffaa33",
+        "900": "#ffaa33"
+      }
+    },
+    "lastExtracted": "2025-12-10T01:10:17.024Z"
   },
   "siteInfo": {
     "site": "https://joserafaelperez.com",
@@ -230,6 +258,6 @@
   },
   "availableThemes": "default",
   "customThemes": "",
-  "customThemeGenerationEnabled": false,
+  "customThemeGenerationEnabled": true,
   "removeRibbonIcon": false
 }
