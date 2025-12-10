@@ -31,4 +31,5 @@ p, image-caption-container {
     font-size: 16px ;
     font-weight: 400 ;
     line-height: 1.88 !important;
+    text-align: left;
 }
