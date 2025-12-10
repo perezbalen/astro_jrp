@@ -46,7 +46,7 @@
       },
       {
         "title": "Videogames",
-        "url": "/videogames/"
+        "url": "/projects/"
       },
       {
         "title": "About",
@@ -171,10 +171,10 @@
     "proseFont": "Domine",
     "monoFont": "Domine",
     "fontSource": "cdn",
-    "fontDisplay": "optional",
+    "fontDisplay": "swap",
     "customFonts": {
-      "heading": "Domine",
-      "prose": "Josefin Sans",
+      "heading": "Josefin Sans",
+      "prose": "Domine",
       "mono": "Domine",
       "urls": "https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap, https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
     }

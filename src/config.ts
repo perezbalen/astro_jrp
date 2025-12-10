@@ -209,16 +209,16 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:FONT_BODY]
       body: "Domine",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Domine",   // Heading font family  
+      heading: "Josefin Sans",   // Heading font family  
       // [CONFIG:FONT_MONO]
       mono: "Domine", // Monospace font family
     },
     // [CONFIG:FONT_DISPLAY]
-    display: "optional", // Font display strategy: "swap" (recommended), "fallback", or "optional"
+    display: "swap", // Font display strategy: "swap" (recommended), "fallback", or "optional"
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "50rem",
+    contentWidth: "55rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
@@ -312,7 +312,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
       { title: "Lecturas Complementarias", url: "/posts/" },
-      { title: "Videogames", url: "/videogames/" },
+      { title: "Videogames", url: "/projects/" },
       { title: "About", url: "/about/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
