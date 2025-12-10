@@ -34,7 +34,17 @@ p, image-caption-container {
     text-align: left;
 }
 
-.nav-text
+.mr-2,
+.mb-1
 {
     font-family: "Josefin Sans", sans-serif !important;
+    text-transform: uppercase; 
+}
+
+.nav-text,
+.flex 
+{
+    font-family: "Josefin Sans", sans-serif !important;
+    text-transform: uppercase; 
+    font-size: clamp(0.8rem, 2.2vw + 0.2rem, 1.5rem) !important; /* min 16px, fluid, max 28px */
 }
