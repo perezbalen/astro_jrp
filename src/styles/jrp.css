@@ -35,7 +35,8 @@ p, image-caption-container {
 }
 
 .mr-2,
-.mb-1
+.mb-1,
+.category
 {
     font-family: "Josefin Sans", sans-serif !important;
     text-transform: uppercase; 

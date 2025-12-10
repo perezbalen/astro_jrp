@@ -1,5 +1,5 @@
 ---
-title: Anamorphico en Premiere Pro
+title: Anamórfico en Premiere Pro
 date: 2024-03-12
 description: El cropping, o “recorte”, se refiere al proceso de ajustar la composición visual del vídeo para adaptarlo al nuevo formato deseado. Cuando pasamos de 16:9 a un formato anamórfico, estamos cambiando las proporciones de la imagen para lograr un aspecto más cinematográfico y expansivo.
 tags:
@@ -11,6 +11,8 @@ hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
+aliases:
+  - anamorphico-en-premiere-pro
 ---
 El cropping, o “recorte”, se refiere al proceso de ajustar la composición visual del vídeo para adaptarlo al nuevo formato deseado. Cuando pasamos de 16:9 a un formato anamórfico, estamos cambiando las proporciones de la imagen para lograr un aspecto más cinematográfico y expansivo.
 
