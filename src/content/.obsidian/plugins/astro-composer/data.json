@@ -30,10 +30,10 @@
     {
       "id": "custom-1758090445018",
       "name": "Videogames",
-      "folder": "videogames",
+      "folder": "projects",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ndate: {{date}}\ncategories: []\nrepositoryUrl: \"\"\ndemoURL: \"\"\nstatus: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\nnoIndex: false\nfeatured: false\n---\n",
       "enabled": true,
-      "linkBasePath": "/videogames/",
+      "linkBasePath": "/projects/",
       "creationMode": "folder",
       "indexFileName": "index"
     },

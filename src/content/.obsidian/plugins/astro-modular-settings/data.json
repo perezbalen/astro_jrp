@@ -21,7 +21,7 @@
     "defaultOgImageAlt": "Astro Modular logo."
   },
   "layout": {
-    "contentWidth": "52rem"
+    "contentWidth": "55rem"
   },
   "tableOfContents": {
     "enabled": true,
