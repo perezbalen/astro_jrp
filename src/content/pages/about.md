@@ -8,44 +8,18 @@ aliases:
   - about-me
   - about-us
 ---
-https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap,https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap
-Josefin Sans
-Domine
+**Profile**
 
-https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap, https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap
+Associate Professor II at the Cinematography Area at the Jorge Tadeo Lozano University, where he coordinates the lines of writing and film direction.
 
-Welcome to **Astro Modular**, an Astro blog theme template designed for Obsidian users, created by [David V. Kimball](https://davidvkimball.com). This theme turns Obsidian into a powerful CMS for instant blog publishing.
+Systems Engineer from the Los Andes University and Master in Creative Writing with an emphasis on Script from the Universidad Nacional de Colombia.
 
-## Philosophy
+Linked to the cinematographic sector since 2002, where he has worked in feature films such as “Love in the Times of Cholera” and “PVC-1”. He has received several awards for his work in the development of film projects such as "The Ibero-American Forum of Audiovisual Co-production of Huelva" and the grant from The Carolina Foundation and Casa de América for the Development of Ibero-American Film Projects. He has been a beneficiary of incentives from the “Fund for Cinematographic Development (FDC)” and the “District Program of Incentives”.
 
-Great content deserves great presentation without complexity. This blog theme is built on four core principles:
+**Perfil**
 
-### Clarity First
-Content should be the star, not the design. Every element is carefully crafted to enhance readability and focus attention on what matters most - your ideas and writing.
+Profesor Asociado II del Área de Cinematografía de la Universidad Jorge Tadeo Lozano, donde coordina las líneas de escritura y dirección de cine. 
 
-### Highly Performant
-Fast loading times and smooth interactions are not optional. Every aspect of this theme has been optimized to deliver exceptional performance across all devices.
+Ingeniero de Sistemas de la Universidad de los Andes y Magister en Escrituras Creativas con énfasis en Guion de la Universidad Nacional de Colombia.
 
-### Works with Obsidian
-If you use Obsidian, this theme is a natural extension of your workflow. All rich markdown and extended markdown features, including Wikilinks, callouts, and other embedded features, display seamlessly between your vault and published site.
-
-### Modular Design
-Every feature can be toggled on or off through a single configuration file. Enable only what you need, keeping your site fast and focused on your specific use case.
-
----
-
-## Pages to Check Out
-
-- [Contact](pages/contact.md) page with a form
-- [Thank You](pages/thank-you.md) page where submitters are directed after a successful submission 
-- [Privacy Policy](pages/privacy-policy.md) page
-
----
-
-## Posts to Check Out
-- [[../reference/getting-started|Getting Started]]
-- [Astro Suite Vault (Modular) Guide](posts/astro-suite-vault-modular-guide.md) 
-
----
-![Water droplet](attachments/water.png)
-*Photo by [Herbert Goetsch](https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
+Vinculado al sector cinematográfico desde 2002, donde ha trabajado en largometrajes como “El Amor en los Tiempos del Cólera” y “PVC-1”. Ha recibido varios reconocimientos por su labor en desarrollo de proyectos cinematográficos como “El Foro Iberoamericano de Coproducción Audiovisual de Huelva” y la beca de “La Fundación Carolina y Casa de América para Desarrollo de Proyectos Cinematográficos Iberoamericanos”. Ha sido beneficiario de estímulos de las Convocatorias del “Fondo para el Desarrollo Cinematográfico (FDC)” y del “Programa Distrital de Estímulos”.

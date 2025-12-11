@@ -59,7 +59,7 @@ import { siteConfig } from '../config';
         // Check if there's any non-image content (like captions)
         // ONLY for single images - grids don't have captions
         let nonImageContent: Node[] = [];
-        if (imageCount === 1) {
+        if (imageCount === 1001) {
           nonImageContent = Array.from(paragraph.childNodes).filter(node => {
             if (node.nodeType === Node.ELEMENT_NODE) {
               const element = node as Element;

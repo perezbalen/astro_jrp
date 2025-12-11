@@ -129,10 +129,14 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
 
   <div class="py-8 relative">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 relative" style={`max-width: ${siteConfig.layout.contentWidth}`}>
-      <!-- Main content -->
-      <article class={`bg-primary-50 dark:bg-primary-900 rounded-lg border border-primary-200 dark:border-primary-700 shadow-sm ${siteConfig.postOptions.showPostCardCoverImages !== 'none' && post.data.image && post.data.hideCoverImage !== true ? 'overflow-hidden' : ''}`}>
+      {/* Main content with optional cover image */}
+      {(() => {
+        const showCoverImage = siteConfig.postOptions.showPostCardCoverImages !== 'none' && post.data.image && post.data.hideCoverImage !== true;
+
+        return (
+      <article class={`bg-primary-50 dark:bg-primary-900 rounded-lg border border-primary-200 dark:border-primary-700 shadow-sm ${showCoverImage ? 'overflow-hidden' : ''}`}>
         {/* Cover image - shown if global config allows and not hidden by frontmatter */}
-        {siteConfig.postOptions.showPostCardCoverImages !== 'none' && post.data.image && post.data.hideCoverImage !== true && (() => {
+        {showCoverImage && (() => {
           // Process image path similar to PostCard
           let rawImage = post.data.image;
           if (Array.isArray(rawImage)) {
@@ -184,12 +188,12 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
           imageSrc = getOptimizedFormat(imageSrc);
           
           return (
-            <div class="h-40 sm:h-48 md:h-56 lg:h-64 overflow-hidden rounded-t-lg bg-primary-100 dark:bg-primary-800">
+            <div class="relative h-40 sm:h-48 md:h-56 lg:h-64 overflow-hidden rounded-t-lg bg-primary-100 dark:bg-primary-800">
               <ImageWrapper
                 src={imageSrc}
                 basePath={imageBasePath}
                 alt={post.data.imageAlt || `Featured image for post: ${post.data.title}`}
-                class="w-full h-full"
+                class="w-full h-full object-cover"
                 width={800}
                 height={450}
                 format="webp"
@@ -197,17 +201,28 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
                 loading="eager"
                 fetchpriority="high"
               />
+              <div
+                class="absolute inset-0 bg-gradient-to-b from-primary-900/30 via-primary-900/40 to-primary-900/55 dark:from-primary-900/50 dark:via-primary-900/60 dark:to-primary-900/75"
+                aria-hidden="true"
+              />
+              <div class="absolute inset-0 flex items-center justify-center px-6 text-center">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-50 drop-shadow-md">
+                  {post.data.title}
+                </h1>
+              </div>
             </div>
           );
         })()}
 
         <!-- Post content wrapper -->
-        <div class={`p-6 ${siteConfig.postOptions.showPostCardCoverImages !== 'none' && post.data.image && post.data.hideCoverImage !== true ? 'rounded-b-lg' : 'rounded-lg'}`}>
+        <div class={`p-6 ${showCoverImage ? 'rounded-b-lg' : 'rounded-lg'}`}>
           <!-- Post header -->
-          <header class="mb-4">
-          <h1 class="text-xl font-bold text-primary-900 dark:text-primary-50 mb-6 leading-tight">
-            {post.data.title}
-          </h1>
+          <header class="mb-4 pt-4 sm:pt-6 relative">
+          {!showCoverImage && (
+            <h1 class="text-xl font-bold text-primary-900 dark:text-primary-50 mb-6 leading-tight">
+              {post.data.title}
+            </h1>
+          )}
 
           <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-primary-600 dark:text-primary-300 mb-6">
             <time datetime={post.data.date.toISOString()} class="font-medium">
@@ -316,6 +331,8 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
         )}
         </div>
       </article>
+        );
+      })()}
 
       <!-- Desktop Sidebar - floats to the right of the content container -->
       <div class="hidden xl:block absolute top-0 left-full ml-1 w-[280px]">
