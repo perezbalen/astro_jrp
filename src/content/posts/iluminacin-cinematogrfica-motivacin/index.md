@@ -14,6 +14,8 @@ hideTOC: false
 targetKeyword: ""
 draft: false
 thumbnail: posts/thumbnails/resized/db6c58eeef7011be1665a554c191de97_86cf658e.webp
+aliases:
+  - iluminacin-cinematogrfica-motivacin-contraste-y-separacin-del-sujeto
 ---
 El video propone un método para “cinematizar” escenas con luz, partiendo de tres ideas: _motivated lighting_ o “luz motivada”, control de contraste y separación clara entre sujeto y fondo. Presenta recursos como _practicals_ o “luces prácticas” (fuentes visibles dentro del set) y cómo usarlas como justificación estética.
 

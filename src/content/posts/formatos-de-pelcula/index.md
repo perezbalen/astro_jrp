@@ -14,6 +14,8 @@ hideTOC: false
 targetKeyword: ""
 draft: false
 thumbnail: posts/thumbnails/resized/4b830d92232d0a360c5eab0f69429745_86cf658e.webp
+aliases:
+  - formatos-de-pelcula-definicin-tcnica-y-consecuencias-visuales
 ---
 El video define qué es un “formato de película”: especificaciones técnicas del soporte y del área de imagen que se captura, aplicables a cine y fotografía. A partir de ahí, compara calibres y usos comunes (por ejemplo 8mm, 16mm, 35mm, 70mm) y cómo cambian el nivel de detalle, el grano y la sensación general de imagen.
 

@@ -9,5 +9,6 @@
   "accentColor": "#3371b9",
   "textFontFamily": "PF Tempesta Seven Small,Calluna",
   "monospaceFontFamily": "JetBrains Mono",
-  "baseFontSize": 16
+  "baseFontSize": 18,
+  "interfaceFontFamily": "PF Tempesta Seven Small"
 }

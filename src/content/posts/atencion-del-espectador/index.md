@@ -7,7 +7,7 @@ tags:
   - puesta_en_escena
   - composición
   - cinematografía
-image: posts/thumbnails/youtube/npHWo0Dgb28.webp
+image: /posts/thumbnails/youtube/npHWo0Dgb28.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
