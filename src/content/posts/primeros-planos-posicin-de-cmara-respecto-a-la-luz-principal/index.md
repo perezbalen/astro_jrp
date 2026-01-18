@@ -7,13 +7,14 @@ tags:
   - iluminación
   - tutorial
   - teroría
-image: ""
+image: posts/thumbnails/youtube/gfEGuSy-8zA.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
+thumbnail: posts/thumbnails/resized/ed11df5553ab19fa0fbe1b671789c38c_86cf658e.webp
 ---
 El video presenta un recurso simple para que los primeros planos se vean más “cinematográficos”: colocar la cámara del lado opuesto al de la _key light_ o “luz principal”, de modo que el rostro caiga en un modelado más contrastado. Esto se relaciona con el principio de _short lighting_ o “iluminación corta”, que suele estilizar el rostro y separar volúmenes.
 

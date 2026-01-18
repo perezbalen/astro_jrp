@@ -7,13 +7,14 @@ tags:
   - dirección_de_arte
   - cinematografía
   - composición
-image: ""
+image: posts/thumbnails/youtube/78Ru62uFM0s.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
+thumbnail: posts/thumbnails/resized/9aad40069b2656654ca0b074b41ce716_86cf658e.webp
 ---
 Conversación centrada en _aspect ratio_ o “relación de aspecto” y en cómo una misma película puede verse distinta según el formato de proyección. Se discuten criterios de encuadre pensando en sala, incluyendo el impacto de versiones que cambian el recorte, el _letterboxing_ o “barras negras” y la composición protegida para diferentes pantallas.
 

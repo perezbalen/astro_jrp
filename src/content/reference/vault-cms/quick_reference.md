@@ -6,6 +6,7 @@
 ## Images
 Command Palette → **Set featured images in current folder** o **Set featured images in all files**
 
+Note: I had to disable "Paste image rename" plugin, as it was renaming the auto-downloaded image thumbnails.
 ## Summary
 
 I have a blog in which I put videos for my students. The following videos should be a post for that blog. 

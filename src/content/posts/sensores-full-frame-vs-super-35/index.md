@@ -7,13 +7,14 @@ tags:
   - cámara
   - cinematografía
   - óptica
-image: ""
+image: posts/thumbnails/youtube/fdhTMk7Mk54.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
+thumbnail: posts/thumbnails/resized/1d4d3ef5b388827ae8fe9ee2828d133b_86cf658e.webp
 ---
 El video compara _full frame_ y _Super 35_ desde variables prácticas: el _field of view_ o “ángulo de visión” para una misma distancia focal, y la _depth of field_ o “profundidad de campo” cuando buscas el mismo encuadre. Esto lleva a la idea de equivalencias: para igualar encuadre entre formatos, cambias distancia focal o distancia a cámara, y eso afecta el look.
 

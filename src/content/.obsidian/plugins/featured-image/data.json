@@ -19,7 +19,7 @@
   "requireExclamationForYouTube": false,
   "downloadExternalImages": true,
   "downloadYoutubeThumbnails": true,
-  "debugMode": false,
+  "debugMode": true,
   "dryRun": false,
   "lastShownVersion": "1.2.4"
 }

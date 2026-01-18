@@ -7,13 +7,14 @@ tags:
   - color
   - dirección_de_arte
   - cinematografía
-image: ""
+image: posts/thumbnails/youtube/RdAEf6A7WwQ.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
+thumbnail: posts/thumbnails/resized/00123be86cbc0311dce2171677fc269f_86cf658e.webp
 ---
 El video explica por qué muchas películas se perciben “bien diseñadas” cuando trabajan con pocas dominantes de color. La clave es la coherencia: una paleta de color con 2–3 familias dominantes facilita jerarquía visual, continuidad emocional y lectura rápida del plano.
 
