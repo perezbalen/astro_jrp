@@ -6,14 +6,14 @@ tags:
   - iluminación
   - tutorial
   - prácticas_de_set
-image: posts/thumbnails/youtube/bEWu-PhfBHQ.webp
+image: ../../posts/thumbnails/youtube/bEWu-PhfBHQ.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-thumbnail: posts/thumbnails/resized/db6c58eeef7011be1665a554c191de97_86cf658e.webp
+thumbnail: ../../posts/thumbnails/resized/65b34e62a6b6e9ec22415763bd7b227c_86cf658e.webp
 aliases:
   - iluminacin-cinematogrfica-motivacin-contraste-y-separacin-del-sujeto
 ---

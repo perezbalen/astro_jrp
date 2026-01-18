@@ -7,14 +7,14 @@ tags:
   - dirección_de_arte
   - cinematografía
   - composición
-image: posts/thumbnails/youtube/78Ru62uFM0s.webp
+image: ../../posts/thumbnails/youtube/78Ru62uFM0s.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-thumbnail: posts/thumbnails/resized/9aad40069b2656654ca0b074b41ce716_86cf658e.webp
+thumbnail: ../../posts/thumbnails/resized/44e2f5b6cde2e15cc634ac6f3307be05_86cf658e.webp
 aliases:
   - relacin-de-aspecto-y-formatos-de-exhibicin-decisiones-creativas-para-la-sala
 ---

@@ -8,7 +8,7 @@ tags:
   - óptica
   - cámara
   - lenguaje_visual
-image: posts/thumbnails/youtube/CEb4s3TGWOw.webp
+image: ../../posts/thumbnails/youtube/CEb4s3TGWOw.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false

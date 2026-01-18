@@ -7,14 +7,14 @@ tags:
   - color
   - dirección_de_arte
   - cinematografía
-image: posts/thumbnails/youtube/RdAEf6A7WwQ.webp
+image: ../../posts/thumbnails/youtube/RdAEf6A7WwQ.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-thumbnail: posts/thumbnails/resized/00123be86cbc0311dce2171677fc269f_86cf658e.webp
+thumbnail: ../../posts/thumbnails/resized/ae8dc7acaf75fc5a7bae29a0a47f096e_86cf658e.webp
 aliases:
   - paletas-limitadas-y-cohesin-cromtica-en-cine
 ---

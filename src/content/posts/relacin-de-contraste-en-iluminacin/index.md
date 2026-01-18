@@ -7,14 +7,14 @@ tags:
   - cinematografía
   - tutorial
   - teroría
-image: posts/thumbnails/youtube/bMZTqc1XYcY.webp
+image: ../../posts/thumbnails/youtube/bMZTqc1XYcY.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-thumbnail: ""
+thumbnail: ../../posts/thumbnails/resized/f72c688aa32c5d53156777ed960f4344_86cf658e.webp
 ---
 Este video introduce los _contrast ratios_ o “ratios de contraste” como una forma concreta de planear el dramatismo de la luz. Explica la relación _key-to-fill_ o “principal-relleno” y cómo ese número describe cuánta diferencia hay entre la zona iluminada y la zona en sombra.
 

@@ -7,7 +7,7 @@ tags:
   - edición
   - televisión
   - postproducción
-image: posts/thumbnails/youtube/lB933a1CF1Y.webp
+image: ../../posts/thumbnails/youtube/lB933a1CF1Y.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
@@ -16,6 +16,7 @@ targetKeyword: ""
 draft: false
 aliases:
   - edicin-de-televisin-en-celuloide-en-los-aos-70
+thumbnail: ../../posts/thumbnails/resized/4050497edbe93f3eb3a34c98ec164905_86cf658e.webp
 ---
 Documento de época sobre cómo se editaba para TV cuando el material era película. Se observa el flujo físico de trabajo: selección de tomas, sincronización de imagen y sonido, y construcción del programa mediante cortes manuales. Aparecen procesos como el _splicing_ o “empalme” y la organización del material en una _workprint_ o “copia de trabajo”.
 

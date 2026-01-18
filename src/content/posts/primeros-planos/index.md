@@ -7,14 +7,14 @@ tags:
   - iluminación
   - tutorial
   - teroría
-image: posts/thumbnails/youtube/gfEGuSy-8zA.webp
+image: ../../posts/thumbnails/youtube/gfEGuSy-8zA.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-thumbnail: posts/thumbnails/resized/ed11df5553ab19fa0fbe1b671789c38c_86cf658e.webp
+thumbnail: ../../posts/thumbnails/resized/c64c10fd413b9f0d6efac83ebc4a1d09_86cf658e.webp
 aliases:
   - primeros-planos-posicin-de-cmara-respecto-a-la-luz-principal
 ---

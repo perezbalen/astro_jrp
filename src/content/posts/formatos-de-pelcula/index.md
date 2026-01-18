@@ -6,14 +6,14 @@ tags:
   - teroría
   - historia
   - cinematografía
-image: posts/thumbnails/youtube/fAZyZkLzs0M.webp
+image: ../../posts/thumbnails/youtube/fAZyZkLzs0M.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-thumbnail: posts/thumbnails/resized/4b830d92232d0a360c5eab0f69429745_86cf658e.webp
+thumbnail: ../../posts/thumbnails/resized/6ad8d4a4be276791fb32d765b968ffe6_86cf658e.webp
 aliases:
   - formatos-de-pelcula-definicin-tcnica-y-consecuencias-visuales
 ---
