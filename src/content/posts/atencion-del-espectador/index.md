@@ -7,7 +7,7 @@ tags:
   - puesta_en_escena
   - composición
   - cinematografía
-image: /posts/thumbnails/youtube/npHWo0Dgb28.webp
+image: posts/attachments/thumbnails/youtube/npHWo0Dgb28.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
@@ -16,6 +16,7 @@ targetKeyword: ""
 draft: false
 aliases:
   - "2"
+thumbnail: posts/attachments/thumbnails/resized/15bd05268506ac24886e60c5a4eaecf6_86cf658e.webp
 ---
 El video muestra cómo un director guía la atención del espectador usando señales visuales y sonoras. Trabaja con el _staging_ o “puesta en escena” (dónde ocurre la acción), el _blocking_ o “bloqueo” (cómo se mueven los actores), y el _framing_ o “encuadre” (qué queda dentro y fuera de cuadro) para decidir qué es importante en cada momento.
 
