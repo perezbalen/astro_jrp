@@ -7,13 +7,13 @@ tags:
   - edición
   - televisión
   - postproducción
-image: ""
+image: posts/thumbnails/youtube/lB933a1CF1Y.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 Documento de época sobre cómo se editaba para TV cuando el material era película. Se observa el flujo físico de trabajo: selección de tomas, sincronización de imagen y sonido, y construcción del programa mediante cortes manuales. Aparecen procesos como el _splicing_ o “empalme” y la organización del material en una _workprint_ o “copia de trabajo”.
 

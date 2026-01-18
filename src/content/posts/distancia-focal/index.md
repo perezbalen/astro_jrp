@@ -7,13 +7,14 @@ tags:
   - cinematografía
   - óptica
   - lenguaje_visual
-image: ""
+image: posts/thumbnails/youtube/fvFXrPvXZ-8.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
+thumbnail: posts/thumbnails/resized/1e9aef982af3b62c0a3a51f6a3e6f7fe_86cf658e.webp
 ---
 La _focal length_ o “distancia focal” define cuánto “abre” o “cierra” el encuadre de una lente, y por eso cambia el _field of view_ o “ángulo de visión”. El video explica cómo una lente gran angular amplía el espacio y acentúa la sensación de cercanía, mientras una lente larga concentra el encuadre y genera _compression_ o “compresión” de planos.
 

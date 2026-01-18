@@ -8,13 +8,13 @@ tags:
   - óptica
   - cámara
   - lenguaje_visual
-image: ""
+image: posts/thumbnails/youtube/CEb4s3TGWOw.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 Este video plantea que el look cinematográfico no depende del equipo, sino de elecciones repetibles. Presenta criterios de lectura visual como el control del contraste, el uso de una paleta de color coherente, y la priorización de una fuente de luz clara, idealmente _motivated lighting_ o “luz motivada” (que parece venir de una fuente real dentro de la escena).
 

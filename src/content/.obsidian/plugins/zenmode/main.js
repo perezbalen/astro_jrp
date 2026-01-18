@@ -106,6 +106,9 @@ var ZenMode = class extends import_obsidian.Plugin {
               return;
             }
           }
+          if (target instanceof HTMLTextAreaElement && target.className && target.className.includes("excalidraw")) {
+            return;
+          }
         }
         const activeModal = document.querySelector(".modal");
         if (!activeModal) {
