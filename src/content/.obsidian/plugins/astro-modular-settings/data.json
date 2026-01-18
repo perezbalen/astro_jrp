@@ -119,7 +119,7 @@
     },
     "recentPosts": {
       "enabled": true,
-      "count": 7
+      "count": 3
     },
     "projects": {
       "enabled": true,
@@ -134,7 +134,7 @@
     }
   },
   "postOptions": {
-    "postsPerPage": 6,
+    "postsPerPage": 10,
     "readingTime": true,
     "wordCount": true,
     "tags": true,

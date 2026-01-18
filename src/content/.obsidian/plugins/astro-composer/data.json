@@ -22,7 +22,8 @@
       "enabled": true,
       "linkBasePath": "/projects/",
       "creationMode": "folder",
-      "indexFileName": "index"
+      "indexFileName": "index",
+      "collapsed": true
     },
     {
       "id": "custom-1758090465286",
