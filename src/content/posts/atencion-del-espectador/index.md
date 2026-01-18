@@ -15,11 +15,10 @@ hideTOC: false
 targetKeyword: ""
 draft: false
 aliases:
-  - "2"
-thumbnail: posts/thumbnails/resized/f641376c225059f5ae24831c9341c515_86cf658e.webp
+thumbnail: ../../posts/thumbnails/resized/f641376c225059f5ae24831c9341c515_86cf658e.webp
 ---
-El video muestra cómo un director guía la atención del espectador usando señales visuales y sonoras. Trabaja con el _staging_ o “puesta en escena” (dónde ocurre la acción), el _blocking_ o “bloqueo” (cómo se mueven los actores), y el _framing_ o “encuadre” (qué queda dentro y fuera de cuadro) para decidir qué es importante en cada momento.
+El video muestra cómo un director guía la atención del espectador usando señales visuales y sonoras. Trabaja con el _staging_ o “puesta en escena”, el _blocking_ o “marcado” (cómo se mueven los actores), y el _framing_ o encuadre (qué queda dentro y fuera de cuadro) para decidir qué es importante en cada momento.
 
-También explica recursos prácticos como el contraste de luz, el movimiento, el _focus_ o “enfoque”, y el _sound cue_ o “señal sonora” para dirigir la mirada sin necesidad de subrayar con diálogo. La idea central es que la dirección se nota más cuando es invisible: la audiencia mira donde tú necesitas que mire.
+También explica recursos prácticos como el contraste de luz, el movimiento, el _enfoque, y el _sound cue_ o “señal sonora” para dirigir la mirada sin necesidad de subrayar con diálogo. La idea central es que la dirección se nota más cuando es invisible: la audiencia mira donde tú necesitas que mire.
 
 [https://www.youtube.com/watch?v=npHWo0Dgb28](https://www.youtube.com/watch?v=npHWo0Dgb28)
