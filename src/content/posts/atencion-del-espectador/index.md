@@ -1,5 +1,5 @@
 ---
-title: "Dirección de la atención del espectador: guiar la mirada dentro del plano"
+title: Dirección de la atención del espectador
 date: 2026-01-18
 description: ""
 tags:
