@@ -12,7 +12,7 @@
   "enableTerminalRibbonIcon": true,
   "enableOpenConfigFileCommand": true,
   "configFilePath": "../config.ts",
-  "enableConfigRibbonIcon": false,
+  "enableConfigRibbonIcon": true,
   "contentTypes": [
     {
       "id": "custom-1758090445018",
