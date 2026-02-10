@@ -67,8 +67,11 @@
     "iconId": "wrench"
   },
   "showMdxFilesInExplorer": false,
-  "linkBasePath": "/posts/",
-  "enableAutoRename": true,
-  "enableAutoInsertFrontmatter": true,
-  "draftStyle": "filename"
+  "processBackgroundFileChanges": true,
+  "syncDraftDate": false,
+  "draftProperty": "",
+  "draftLogic": "true-is-draft",
+  "publishDateField": "",
+  "updateModifiedDate": false,
+  "modifiedDateField": ""
 }
