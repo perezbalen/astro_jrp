@@ -4,13 +4,16 @@ date: 2026-02-09
 description: ""
 tags:
   - marcado
+  - cámara
+  - composición
+  - lenguaje_visual
 image: ../../posts/thumbnails/youtube/EqTn6lfRNow.webp
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 thumbnail: posts/thumbnails/resized/669ae9fa6f1b503a3510c3dfa8e08a3e_86cf658e.webp
 ---
 El _blocking_, o marcado, es la planificación de posiciones y desplazamientos de los intérpretes dentro del espacio para guiar la atención del espectador y comunicar información narrativa sin depender del diálogo.
