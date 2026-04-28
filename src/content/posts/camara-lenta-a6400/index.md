@@ -13,7 +13,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 thumbnail: posts/thumbnails/resized/34d64831a9e027883abb8d70c81497b3_86cf658e.webp
 ---
 El video trata sobre los mejores ajustes para grabar en cámara lenta con cámaras Sony Alpha, especialmente modelos como la A6400.
