@@ -2,7 +2,11 @@
 title: Camara Lenta A6400
 date: 2026-04-27
 description: ""
-tags: []
+tags:
+  - cámara
+  - cinematografía
+  - postproducción
+  - tutorial
 image: posts/thumbnails/youtube/nH3VyJw2LG4.webp
 imageAlt: ""
 imageOG: false
