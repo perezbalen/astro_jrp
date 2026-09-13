@@ -64,7 +64,7 @@ const visiblePosts = allPosts.filter(p => shouldShowPost(p, isDev));
 
 // Process the post content and get processed data including word count
 const { Content, headings, wordCount, remarkPluginFrontmatter } = await processPost(post);
-const readingTime = calculateReadingTime(post.body);
+const readingTime = calculateReadingTime(post.body ?? '');
 
 // Generate table of contents if enabled
 const hideTOC = post.data.hideTOC === true;
@@ -188,7 +188,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
           imageSrc = getOptimizedFormat(imageSrc);
           
           return (
-            <div class="relative h-40 sm:h-48 md:h-56 lg:h-64 overflow-hidden rounded-t-lg bg-primary-100 dark:bg-primary-800">
+            <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-[2.25/1] overflow-hidden rounded-t-lg bg-primary-100 dark:bg-primary-800">
               <ImageWrapper
                 src={imageSrc}
                 basePath={imageBasePath}
@@ -201,15 +201,6 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
                 loading="eager"
                 fetchpriority="high"
               />
-              <div
-                class="absolute inset-0 bg-gradient-to-b from-primary-900/30 via-primary-900/40 to-primary-900/55 dark:from-primary-900/50 dark:via-primary-900/60 dark:to-primary-900/75"
-                aria-hidden="true"
-              />
-              <div class="absolute inset-0 flex items-center justify-center px-6 text-center">
-                <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-50 drop-shadow-md">
-                  {post.data.title}
-                </h1>
-              </div>
             </div>
           );
         })()}
@@ -218,13 +209,11 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
         <div class={`p-6 ${showCoverImage ? 'rounded-b-lg' : 'rounded-lg'}`}>
           <!-- Post header -->
           <header class="mb-4 pt-4 sm:pt-6 relative">
-          {!showCoverImage && (
-            <h1 class="text-xl font-bold text-primary-900 dark:text-primary-50 mb-6 leading-tight">
-              {post.data.title}
-            </h1>
-          )}
+          <h1 class="article-title text-3xl sm:text-4xl md:text-5xl font-semibold text-primary-900 dark:text-primary-50 mb-6">
+            {post.data.title}
+          </h1>
 
-          <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-primary-600 dark:text-primary-300 mb-6">
+          <div class="card-meta flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-primary-700 dark:text-primary-300 mb-6">
             <time datetime={post.data.date.toISOString()} class="font-medium">
               <span class="hidden sm:inline">
                 {formatDate(post.data.date)}
@@ -262,7 +251,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
               {post.data.tags.map(tag => (
                 <a
                   href={`/posts/tag/${encodeURIComponent(tag)}`}
-                  class="text-xs text-primary-600 dark:text-primary-300 bg-primary-100 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700 transition-colors hover:bg-highlight-100 dark:hover:bg-highlight-800"
+                  class="tag-chip text-xs text-primary-700 dark:text-primary-300 bg-primary-100 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700 transition-colors hover:bg-highlight-100 dark:hover:bg-highlight-800"
                 >
                   {tag}
                 </a>
@@ -272,7 +261,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
         </header>
 
         <!-- Article content -->
-        <div class="prose dark:prose-dark max-w-none" id="post-content">
+        <div class="prose reading-column dark:prose-dark max-w-none" id="post-content">
           <Content />
         </div>
 

@@ -1,134 +1,186 @@
 {
   "nodes": [
     {
-      "id": "anamorphico-en-premiere-pro",
+      "id": "anamorfico-en-premiere-pro",
       "type": "post",
-      "title": "Anamorphico en Premiere Pro",
-      "slug": "anamorphico-en-premiere-pro",
+      "title": "Anamórfico en Premiere Pro",
+      "slug": "anamorfico-en-premiere-pro",
       "connections": 0
     },
     {
-      "id": "formatting-reference",
+      "id": "atencion-del-espectador",
       "type": "post",
-      "title": "Formatting Reference",
-      "slug": "formatting-reference",
-      "connections": 13
-    },
-    {
-      "id": "getting-started",
-      "type": "post",
-      "title": "Getting Started",
-      "slug": "getting-started",
-      "connections": 6
-    },
-    {
-      "id": "my-vault-cms-guide",
-      "type": "post",
-      "title": "My Vault CMS Guide",
-      "slug": "my-vault-cms-guide",
+      "title": "Dirección de la atención del espectador: guiar la mirada dentro del plano",
+      "slug": "atencion-del-espectador",
       "connections": 0
     },
     {
-      "id": "obsidian-embeds-demo",
+      "id": "block-to-the-future",
       "type": "post",
-      "title": "Obsidian Embeds Demo",
-      "slug": "obsidian-embeds-demo",
+      "title": "Block to the future",
+      "slug": "block-to-the-future",
       "connections": 0
     },
     {
-      "id": "sample-folder-based-post",
+      "id": "camara-lenta-a6400",
       "type": "post",
-      "title": "Sample Folder-Based Post",
-      "slug": "sample-folder-based-post",
+      "title": "Camara Lenta A6400",
+      "slug": "camara-lenta-a6400",
+      "connections": 0
+    },
+    {
+      "id": "cmo-se-editaba-cine-antes-del-computador",
+      "type": "post",
+      "title": "Cómo se editaba cine antes del computador",
+      "slug": "cmo-se-editaba-cine-antes-del-computador",
+      "connections": 0
+    },
+    {
+      "id": "cmo-se-editaba-video-antes-del-computador",
+      "type": "post",
+      "title": "Cómo se editaba video antes del computador",
+      "slug": "cmo-se-editaba-video-antes-del-computador",
+      "connections": 0
+    },
+    {
+      "id": "cmo-usar-la-claqueta",
+      "type": "post",
+      "title": "Cómo usar la Claqueta",
+      "slug": "cmo-usar-la-claqueta",
+      "connections": 0
+    },
+    {
+      "id": "color-de-la-luz-del-da-y-la-noche",
+      "type": "post",
+      "title": "Color de la luz del día y la noche",
+      "slug": "color-de-la-luz-del-da-y-la-noche",
+      "connections": 0
+    },
+    {
+      "id": "composicin-anamrfica",
+      "type": "post",
+      "title": "Composición Anamórfica",
+      "slug": "composicin-anamrfica",
+      "connections": 0
+    },
+    {
+      "id": "decisiones-de-fotografa",
+      "type": "post",
+      "title": "Decisiones fotográficas para lograr una imagen cinematográfica",
+      "slug": "decisiones-de-fotografa",
+      "connections": 0
+    },
+    {
+      "id": "distancia-focal",
+      "type": "post",
+      "title": "Distancia Focal",
+      "slug": "distancia-focal",
+      "connections": 0
+    },
+    {
+      "id": "edicin-de-televisin-en-celuloide",
+      "type": "post",
+      "title": "Edición de televisión en celuloide en los años 70",
+      "slug": "edicin-de-televisin-en-celuloide",
+      "connections": 0
+    },
+    {
+      "id": "filtros-de-luz-y-su-impacto-en-la-imagen",
+      "type": "post",
+      "title": "Filtros de luz y su impacto en la imagen",
+      "slug": "filtros-de-luz-y-su-impacto-en-la-imagen",
+      "connections": 0
+    },
+    {
+      "id": "formatos-de-pelcula",
+      "type": "post",
+      "title": "Formatos de película: definición técnica y consecuencias visuales",
+      "slug": "formatos-de-pelcula",
+      "connections": 0
+    },
+    {
+      "id": "iluminacin-cinematogrfica-motivacin",
+      "type": "post",
+      "title": "Iluminación cinematográfica: motivación, contraste y separación del sujeto",
+      "slug": "iluminacin-cinematogrfica-motivacin",
+      "connections": 0
+    },
+    {
+      "id": "lentes-anamrficos-y-esfricos",
+      "type": "post",
+      "title": "Lentes anamórficos y esféricos",
+      "slug": "lentes-anamrficos-y-esfricos",
+      "connections": 0
+    },
+    {
+      "id": "orden-de-operaciones-en-el-set",
+      "type": "post",
+      "title": "Orden de Operaciones en el Set",
+      "slug": "orden-de-operaciones-en-el-set",
+      "connections": 0
+    },
+    {
+      "id": "paletas-limitadas",
+      "type": "post",
+      "title": "Paletas limitadas y cohesión cromática en cine",
+      "slug": "paletas-limitadas",
+      "connections": 0
+    },
+    {
+      "id": "planos-desarrollados-cortos",
+      "type": "post",
+      "title": "Planos desarrollados cortos",
+      "slug": "planos-desarrollados-cortos",
+      "connections": 0
+    },
+    {
+      "id": "primeros-planos",
+      "type": "post",
+      "title": "Primeros planos: posición de cámara respecto a la luz principal",
+      "slug": "primeros-planos",
+      "connections": 0
+    },
+    {
+      "id": "relacin-de-aspecto",
+      "type": "post",
+      "title": "Relación de aspecto y formatos de exhibición: decisiones creativas para la sala",
+      "slug": "relacin-de-aspecto",
+      "connections": 0
+    },
+    {
+      "id": "relacin-de-contraste-en-iluminacin",
+      "type": "post",
+      "title": "Relación de contraste en iluminación: ratios y control del dramatismo",
+      "slug": "relacin-de-contraste-en-iluminacin",
+      "connections": 0
+    },
+    {
+      "id": "sensores-full-frame-vs-super-35",
+      "type": "post",
+      "title": "Sensores Full Frame vs Super 35:Sensores Full Frame vs Super 35: campo de visión, profundidad de campo y compatibilidad de lentes",
+      "slug": "sensores-full-frame-vs-super-35",
+      "connections": 0
+    },
+    {
+      "id": "sonido-en-el-cine",
+      "type": "post",
+      "title": "Sonido en el Cine",
+      "slug": "sonido-en-el-cine",
+      "connections": 0
+    },
+    {
+      "id": "telecine",
+      "type": "post",
+      "title": "Telecine",
+      "slug": "telecine",
       "connections": 0
     }
   ],
-  "connections": [
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "sample-folder-based-post",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "my-vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "obsidian-embeds-demo",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "obsidian-embeds-demo",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "obsidian-embeds-demo",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "my-vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "formatting-reference",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "my-vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "formatting-reference",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "my-vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "formatting-reference",
-      "type": "link"
-    }
-  ],
+  "connections": [],
   "metadata": {
-    "totalPosts": 6,
-    "totalConnections": 16,
+    "totalPosts": 25,
+    "totalConnections": 0,
     "maxNodesApplied": false,
-    "originalNodeCount": 6
+    "originalNodeCount": 25
   }
 }

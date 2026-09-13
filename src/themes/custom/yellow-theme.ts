@@ -1,7 +1,7 @@
 // Custom theme extracted from Obsidian
 // Generated: 2025-12-10T01:10:51.764Z
 
-export const yellow-themeTheme = {
+export const customTheme = {
   primary: {
     50: "#f4f4f5",
     100: "#e9e9ea",

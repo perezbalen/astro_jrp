@@ -4,17 +4,18 @@ date: 2025-12-09
 description: During a recent playthrough of Full Throttle, I had an important realization about my game design approach. My puzzles had grown unnecessarily complex, with intricate logic that not only made development challenging but also raised questions about player enjoyment.
 tags:
   - videogames
-image: full-throttle-0.jpg
+image: projects/point-and-click-puzzle-structure/full-throttle-1.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
+thumbnail: posts/thumbnails/resized/3ce214ec5c1e7828d5c2d86bdc991e3b_86cf658e.webp
 ---
 ## The structure of Full Throttle
 
-During a recent playthrough of Full Throttle, I had an important realization about my game design approach. My puzzles had grown unnecessarily complex, with intricate logic that not only made development challenging but also raised questions about player enjoyment. Was I creating engaging experiences, or just convoluted obstacles?
+During a recent playthrough of Full Throttle, I had an importantÞ realization about my game design approach. My puzzles had grown unnecessarily complex, with intricate logic that not only made development challenging but also raised questions about player enjoyment. Was I creating engaging experiences, or just convoluted obstacles?
 
 So I took a moment to go back and study games of old and, while taking notes on Tim Schafer’s work in “Full Throttle,” I found that at least in some parts he follows a particular structure. I don’t know if it’s on purpose, or if his team used this all the time, but it helped me to understand how to write a compelling puzzle that moves the story forward.
 

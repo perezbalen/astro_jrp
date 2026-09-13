@@ -1,5 +1,6 @@
 {
   "showNotificationsOnUpdate": true,
+  "runAutomaticallyWhileEditing": true,
   "frontmatterProperty": "image",
   "thumbnailsFolder": "/posts/thumbnails",
   "excludedFolders": [],
@@ -12,7 +13,6 @@
   "resizedHorizontalAlign": "center",
   "frontmatterImageSourceProperties": [],
   "mediaLinkFormat": "plain",
-  "useMediaLinks": false,
   "onlyUpdateExisting": true,
   "keepEmptyProperty": true,
   "preserveTemplateImages": true,
@@ -21,5 +21,6 @@
   "downloadYoutubeThumbnails": true,
   "debugMode": false,
   "dryRun": false,
-  "lastShownVersion": "1.2.4"
+  "lastShownVersion": "1.2.8",
+  "useMediaLinks": false
 }

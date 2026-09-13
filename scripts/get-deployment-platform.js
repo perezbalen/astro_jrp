@@ -14,7 +14,10 @@ function getDeploymentPlatform() {
     const configContent = readFileSync(configPath, 'utf8');
     
     // Extract platform from config
-    const platformMatch = configContent.match(/platform:\s*["']([^"']+)["']/);
+    // The SiteConfig interface contains a quoted union before the configured
+    // value, so use the final concrete platform assignment in the file.
+    const platformMatches = [...configContent.matchAll(/platform:\s*["']([^"']+)["']/g)];
+    const platformMatch = platformMatches.at(-1);
     
     if (platformMatch) {
       return platformMatch[1];

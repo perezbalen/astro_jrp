@@ -176,74 +176,44 @@
   force = true
 
 [[redirects]]
-  from = "/posts/astro-suite-vault-modular-guide"
-  to = "/posts/my-vault-cms-guide"
+  from = "/posts/anamorphico-en-premiere-pro"
+  to = "/posts/anamorfico-en-premiere-pro"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/astro-suite-obsidian-vault-guide-astro-modular"
-  to = "/posts/my-vault-cms-guide"
+  from = "/posts/edicin-de-televisin-en-celuloide-en-los-aos-70"
+  to = "/posts/edicin-de-televisin-en-celuloide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/obsidian-vault-guide"
-  to = "/posts/my-vault-cms-guide"
+  from = "/posts/formatos-de-pelcula-definicin-tcnica-y-consecuencias-visuales"
+  to = "/posts/formatos-de-pelcula"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/vault-cms-guide"
-  to = "/posts/my-vault-cms-guide"
+  from = "/posts/iluminacin-cinematogrfica-motivacin-contraste-y-separacin-del-sujeto"
+  to = "/posts/iluminacin-cinematogrfica-motivacin"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/mermaid-test"
-  to = "/posts/obsidian-embeds-demo"
+  from = "/posts/paletas-limitadas-y-cohesin-cromtica-en-cine"
+  to = "/posts/paletas-limitadas"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/mermaid-diagram-test"
-  to = "/posts/obsidian-embeds-demo"
+  from = "/posts/primeros-planos-posicin-de-cmara-respecto-a-la-luz-principal"
+  to = "/posts/primeros-planos"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/mermaid-diagrams"
-  to = "/posts/obsidian-embeds-demo"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/projects/obsidian-astro-composer"
-  to = "/projects/astro-composer"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/projects/obsidian-astro-suite"
-  to = "/projects/vault-cms"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/docs/api-reference"
-  to = "/docs/api"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/docs/astro-modular-configuration"
-  to = "/docs/configuration"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/docs/sourcetree-and-git"
-  to = "/docs/sourcetree-and-git-setup"
+  from = "/posts/relacin-de-aspecto-y-formatos-de-exhibicin-decisiones-creativas-para-la-sala"
+  to = "/posts/relacin-de-aspecto"
   status = 301
   force = true
 

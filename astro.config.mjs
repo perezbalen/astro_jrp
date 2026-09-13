@@ -25,7 +25,7 @@ import swup from '@swup/astro';
 import { fileURLToPath } from 'url';
 
 // Deployment platform configuration
-const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || 'netlify';
+const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || siteConfig.deployment.platform;
 
 export default defineConfig({
   site: siteConfig.site,
@@ -43,18 +43,13 @@ export default defineConfig({
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
-  '/posts/astro-suite-vault-modular-guide': '/posts/my-vault-cms-guide',
-  '/posts/astro-suite-obsidian-vault-guide-astro-modular': '/posts/my-vault-cms-guide',
-  '/posts/obsidian-vault-guide': '/posts/my-vault-cms-guide',
-  '/posts/vault-cms-guide': '/posts/my-vault-cms-guide',
-  '/posts/mermaid-test': '/posts/obsidian-embeds-demo',
-  '/posts/mermaid-diagram-test': '/posts/obsidian-embeds-demo',
-  '/posts/mermaid-diagrams': '/posts/obsidian-embeds-demo',
-  '/projects/obsidian-astro-composer': '/projects/astro-composer',
-  '/projects/obsidian-astro-suite': '/projects/vault-cms',
-  '/docs/api-reference': '/docs/api',
-  '/docs/astro-modular-configuration': '/docs/configuration',
-  '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
+  '/posts/anamorphico-en-premiere-pro': '/posts/anamorfico-en-premiere-pro',
+  '/posts/edicin-de-televisin-en-celuloide-en-los-aos-70': '/posts/edicin-de-televisin-en-celuloide',
+  '/posts/formatos-de-pelcula-definicin-tcnica-y-consecuencias-visuales': '/posts/formatos-de-pelcula',
+  '/posts/iluminacin-cinematogrfica-motivacin-contraste-y-separacin-del-sujeto': '/posts/iluminacin-cinematogrfica-motivacin',
+  '/posts/paletas-limitadas-y-cohesin-cromtica-en-cine': '/posts/paletas-limitadas',
+  '/posts/primeros-planos-posicin-de-cmara-respecto-a-la-luz-principal': '/posts/primeros-planos',
+  '/posts/relacin-de-aspecto-y-formatos-de-exhibicin-decisiones-creativas-para-la-sala': '/posts/relacin-de-aspecto'
 } : {},
 image: {
     service: {

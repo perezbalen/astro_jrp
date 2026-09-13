@@ -208,7 +208,7 @@ const structuredData = {
           {siteConfig.homeOptions.featuredPost.enabled && featuredPost && (
             <section class="mb-12">
               <div class="flex items-center justify-between mb-6">
-                <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
+                <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
                   {siteConfig.homeOptions.featuredPost.type === "latest" ? "Latest Post" : "Featured Post"}
                 </h2>
               </div>
@@ -222,21 +222,23 @@ const structuredData = {
             <section class="mb-12">
               {!useSpecialTreatment && (
                 <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
+                  <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
                     Recent Posts
                   </h2>
                   <a
                     href="/posts"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
                     View all posts →
                   </a>
                 </div>
               )}
 
-              <div class="space-y-4">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {previewPosts.map((post, index) => (
-                  <PostCard post={post} eager={featuredPost ? index === 0 : index < 2} context="recent" />
+                  <div class={index === 0 ? 'md:col-span-2' : ''}>
+                    <PostCard post={post} eager={featuredPost ? index === 0 : index < 2} context="recent" />
+                  </div>
                 ))}
               </div>
 
@@ -244,7 +246,7 @@ const structuredData = {
                 <div class="mt-8 text-center">
                   <a
                     href="/posts"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
                     View all posts →
                   </a>
@@ -258,12 +260,12 @@ const structuredData = {
             <section class="mb-12">
               {!useSpecialTreatment && (
                 <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
+                  <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
                     Projects
                   </h2>
                   <a
                     href="/projects"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
                     View all projects →
                   </a>
@@ -280,7 +282,7 @@ const structuredData = {
                 <div class="mt-8 text-center">
                   <a
                     href="/projects"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
                     View all projects →
                   </a>
@@ -294,12 +296,12 @@ const structuredData = {
             <section class="mb-12">
               {!useSpecialTreatment && (
                 <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
+                  <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
                     Documentation
                   </h2>
                   <a
                     href="/docs"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
                     View all docs →
                   </a>
@@ -316,7 +318,7 @@ const structuredData = {
                 <div class="mt-8 text-center">
                   <a
                     href="/docs"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
                     View all docs →
                   </a>

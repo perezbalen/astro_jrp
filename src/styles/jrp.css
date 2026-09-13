@@ -1,52 +1,63 @@
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600 !important;  
-    text-transform: uppercase; 
-    margin-top: 36px !important;
-    margin-bottom: 24px !important;
+    text-wrap: balance;
 }
 
-h1 {
-    font-size: 64px;
-    font-size: clamp(2rem, 4vw + 1rem, 4rem) !important; /* min 32px, fluid, max 64px */
-    
+.article-title {
+    line-height: 1.08 !important;
+    letter-spacing: -0.025em;
 }
 
-h2 {
-    font-size: 35px;
-    font-size: clamp(1.125rem, 2.5vw + 0.5rem, 2.1875rem) !important;
+.prose {
+    font-size: clamp(1rem, 0.95rem + 0.22vw, 1.125rem) !important;
+    line-height: 1.75 !important;
 }
 
-h3 {
-    font-size: 28px;
-    font-size: clamp(1rem, 2.2vw + 0.2rem, 1.75rem) !important; /* min 16px, fluid, max 28px */
-}
-
-p, image-caption-container {
-    margin: 0 0 3.6em ;
+.prose p,
+.image-caption-container {
+    margin: 0;
     margin-block-start: 1em !important;
     margin-block-end: 1em !important;
-    margin-inline-start: 0px ;
-    margin-inline-end: 0px ;
-    font-size: 16px ;
-    font-weight: 400 ;
-    line-height: 1.88 !important;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: inherit !important;
     text-align: left;
+    text-wrap: pretty;
 }
 
-.mr-2,
-.mb-1,
-.category
-{
-    font-family: "Josefin Sans", sans-serif !important;
-    text-transform: uppercase; 
+.prose.reading-column > :where(p, h2, h3, h4, h5, h6, ul, ol, blockquote) {
+    max-width: 40rem;
+    margin-inline: auto;
+}
+
+.prose.reading-column > :where(p:has(img), p:has(picture), p:has(iframe), figure, .image-caption-container) {
+    max-width: none;
+}
+
+.card-meta,
+.category {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    text-transform: uppercase;
     font-size: 12px !important;
+    letter-spacing: 0.055em;
 }
 
-.nav-text,
-.nav-logo
-{
+.tag-chip,
+.nav-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+.nav-text {
+    text-transform: none;
+    font-size: 0.875rem !important;
+    letter-spacing: 0.015em;
+}
+
+.nav-logo {
     font-family: "Josefin Sans", sans-serif !important;
-    text-transform: uppercase; 
-    font-size: clamp(0.8rem, 2vw + 0.2rem, 1.2rem) !important; /* min 16px, fluid, max 28px */
+    text-transform: uppercase;
+    font-size: clamp(0.8rem, 1vw + 0.35rem, 1rem) !important;
+    letter-spacing: 0.035em;
 }

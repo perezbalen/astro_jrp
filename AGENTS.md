@@ -1,5 +1,9 @@
 # AI Agent Guide for Astro Modular Theme
 
+## This site's local operating contract
+
+This checkout is the personalized site for `https://joserafaelperez.com`, not a pristine theme repository. Read [SITE_OPERATIONS.md](SITE_OPERATIONS.md) before making changes. It records the current content inventory, runtime, validation, publishing path, and safe maintenance workflow. Its project-specific instructions take precedence over generic examples in this upstream guide.
+
 This document contains essential information for AI agents working with this Astro-based blog theme. It combines development practices, folder-based content organization, technical implementation details, and the project's vision for seamless Obsidian-to-web publishing.
 
 ## 🚨 CRITICAL: Primary Information Sources

@@ -55,6 +55,7 @@ const pagesCollection = defineCollection({
     imageAlt: z.string().nullable().optional(),
     hideCoverImage: z.boolean().optional(),
     hideTOC: z.boolean().optional(),
+    showTOC: z.boolean().optional(),
     noIndex: z.boolean().optional(),
   }),
 });

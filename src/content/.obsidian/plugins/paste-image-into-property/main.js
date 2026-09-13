@@ -21,7 +21,7 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// main.ts
+// src/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => PasteImageIntoProperty
@@ -30,16 +30,16 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var PasteImageIntoProperty = class extends import_obsidian.Plugin {
   async onload() {
-    this.registerDomEvent(document, "paste", (evt) => this.handlePaste(evt), true);
+    this.registerDomEvent(activeDocument, "paste", (evt) => this.handlePaste(evt), true);
   }
   handlePaste(evt) {
     var _a;
-    const activeEl = document.activeElement;
+    const activeEl = activeDocument.activeElement;
     if (!evt.clipboardData || evt.clipboardData.types[0] != "Files")
       return false;
     const isFrontmatterFieldSupported = this.isSupportedFrontmatterField(activeEl);
     if (isFrontmatterFieldSupported)
-      this.handleImagePaste(evt, activeEl);
+      void this.handleImagePaste(evt);
     else if (this.isFrontmatterField(activeEl.parentElement) || this.isFrontmatterField((_a = activeEl.parentElement) == null ? void 0 : _a.parentElement))
       new import_obsidian.Notice(`Pasting images is only supported in property type "Text"!`);
   }
@@ -53,21 +53,21 @@ var PasteImageIntoProperty = class extends import_obsidian.Plugin {
       return false;
     return element.matches(".metadata-input-longtext");
   }
-  async handleImagePaste(evt, target) {
+  async handleImagePaste(evt) {
     const items = evt.clipboardData.items;
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
       if (item.kind === "file" && item.type.startsWith("image/")) {
         const file = item.getAsFile();
         if (file) {
-          await this.saveImageAndWriteLink(file, target);
+          await this.saveImageAndWriteLink(file);
           evt.preventDefault();
           break;
         }
       }
     }
   }
-  async saveImageAndWriteLink(file, target) {
+  async saveImageAndWriteLink(file) {
     var _a;
     const arrayBuffer = await file.arrayBuffer();
     const fileExtension = file.type.split("/")[1] || "png";
@@ -78,16 +78,16 @@ var PasteImageIntoProperty = class extends import_obsidian.Plugin {
       return;
     }
     const savePath = await this.app.fileManager.getAvailablePathForAttachment(fileName, activeFile.path);
-    const activeEl = document.activeElement;
+    const activeEl = activeDocument.activeElement;
     const propertyName = (_a = activeEl.closest(".metadata-property")) == null ? void 0 : _a.getAttribute("data-property-key");
     const newFile = await this.app.vault.createBinary(savePath, arrayBuffer);
     const linkName = savePath.split("/").last();
     await this.writeLinkIntoFrontmatter(activeFile, `[[${linkName}]]`, activeEl, propertyName, newFile);
   }
   async writeLinkIntoFrontmatter(activeFile, filePath, activeEl, propertyName, newFile) {
-    if (document.activeElement == activeEl)
+    if (activeDocument.activeElement == activeEl)
       activeEl.blur();
-    await new Promise((resolve) => setTimeout(resolve, 50));
+    await new Promise((resolve) => activeWindow.setTimeout(resolve, 50));
     try {
       if (!propertyName)
         throw new Error("data-property-key attribute not found on the expected element.");
@@ -96,7 +96,7 @@ var PasteImageIntoProperty = class extends import_obsidian.Plugin {
       });
       new import_obsidian.Notice(`Image added to frontmatter: ${filePath}`);
     } catch (error) {
-      await this.app.vault.delete(newFile);
+      await this.app.fileManager.trashFile(newFile);
       new import_obsidian.Notice(`Failed to update frontmatter!
 ${error}`);
       console.error("Error updating frontmatter:", error);

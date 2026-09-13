@@ -11,9 +11,9 @@ import Pagination from '@/components/Pagination.astro';
 import Icon from '@/components/Icon.astro';
 
 // Get special content for posts page
-let postsPageContent;
+let postsPageContent: Awaited<ReturnType<typeof getCollection<'special'>>>;
 try {
-  postsPageContent = await getCollection('special', ({ slug }) => slug === 'posts');
+  postsPageContent = await getCollection('special', ({ id }) => id === 'posts');
 } catch (error) {
   // Fallback if special collection doesn't exist or posts.md doesn't exist
   postsPageContent = [];
@@ -104,14 +104,14 @@ const pagination = {
     <div class="mx-auto px-4 sm:px-6 lg:px-8 mb-12" style={`max-width: ${siteConfig.layout.contentWidth}`}>
       <!-- Header -->
       <header class="mb-8">
-        <div class="flex items-start justify-between mb-3">
-          <h1 class="text-lg font-bold text-primary-900 dark:text-primary-50">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between mb-3">
+          <h1 class="text-3xl sm:text-4xl leading-tight tracking-tight font-semibold text-primary-900 dark:text-primary-50">
             {pageTitle}
           </h1>
-          <div class="flex items-center space-x-2">
+          <div class="flex items-center gap-2">
             <a
               href="/rss.xml"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-highlight-600 dark:text-highlight-400 bg-highlight-50 dark:bg-highlight-900/20 rounded-lg border border-highlight-200 dark:border-highlight-700 hover:bg-highlight-100 dark:hover:bg-highlight-900/40 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200"
+              class="inline-flex items-center whitespace-nowrap px-2.5 py-1.5 sm:px-3 sm:py-2 text-xs sm:text-sm font-medium text-highlight-600 dark:text-highlight-400 bg-highlight-50 dark:bg-highlight-900/20 rounded-lg border border-highlight-200 dark:border-highlight-700 hover:bg-highlight-100 dark:hover:bg-highlight-900/40 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200"
               title="Subscribe to RSS feed"
               data-no-swup
             >
@@ -120,7 +120,7 @@ const pagination = {
             </a>
             <a
               href="/feed.xml"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-highlight-600 dark:text-highlight-400 bg-highlight-50 dark:bg-highlight-900/20 rounded-lg border border-highlight-200 dark:border-highlight-700 hover:bg-highlight-100 dark:hover:bg-highlight-900/40 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200"
+              class="inline-flex items-center whitespace-nowrap px-2.5 py-1.5 sm:px-3 sm:py-2 text-xs sm:text-sm font-medium text-highlight-600 dark:text-highlight-400 bg-highlight-50 dark:bg-highlight-900/20 rounded-lg border border-highlight-200 dark:border-highlight-700 hover:bg-highlight-100 dark:hover:bg-highlight-900/40 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200"
               title="Subscribe to Atom feed"
               data-no-swup
             >
@@ -161,7 +161,7 @@ const pagination = {
           {paginatedPosts.length > 0 ? (
             <>
               <!-- Posts list -->
-              <div class="space-y-4 mb-12">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-12">
                 {paginatedPosts.map((post, index) => (
                   <PostCard post={post} eager={index < 2} context="posts" />
                 ))}

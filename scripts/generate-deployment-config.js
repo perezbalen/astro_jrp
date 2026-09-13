@@ -895,7 +895,9 @@ async function generateRedirects() {
     
     // Update Astro config with redirects (only used in dev mode - instant HTTP redirects)
     // In production builds, redirects are set to {} to prevent HTML meta refresh files
-    await updateAstroConfig(allRedirects);
+    if (!DRY_RUN && !VALIDATE_ONLY) {
+      await updateAstroConfig(allRedirects);
+    }
     
     // Generate platform-specific configs
     if (VALIDATE_ONLY) {

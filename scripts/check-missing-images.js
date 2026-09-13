@@ -13,7 +13,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, '..');
 
-// Get all markdown files in content directory
+const PUBLISHABLE_COLLECTIONS = ['posts', 'pages', 'projects', 'docs', 'special'];
+
+// Get all markdown files in a publishable content collection.
 function getAllMarkdownFiles(dir) {
   const files = [];
   const items = fs.readdirSync(dir);
@@ -24,7 +26,7 @@ function getAllMarkdownFiles(dir) {
     
     if (stat.isDirectory()) {
       files.push(...getAllMarkdownFiles(fullPath));
-    } else if (item.endsWith('.md')) {
+    } else if (item.endsWith('.md') || item.endsWith('.mdx')) {
       files.push(fullPath);
     }
   }
@@ -66,11 +68,25 @@ function extractImageReferences(content) {
 // Check if image exists
 function checkImageExists(imageSrc, filePath) {
   // Handle different image path formats
-  let imagePath = imageSrc;
+  let imagePath = imageSrc.trim();
   
   // Remove Obsidian brackets
   if (imagePath.startsWith('[[') && imagePath.endsWith(']]')) {
     imagePath = imagePath.slice(2, -2);
+  }
+
+  // Obsidian embeds may include display text, dimensions, or a heading/page anchor.
+  imagePath = imagePath.split('|')[0].split('#')[0].trim();
+
+  // External and data URLs are not local files.
+  if (/^(https?:|data:)/i.test(imagePath)) {
+    return { exists: true, path: imagePath };
+  }
+
+  // Relative Markdown paths resolve from the note that contains them.
+  const relativeToNote = path.resolve(path.dirname(filePath), imagePath);
+  if (fs.existsSync(relativeToNote)) {
+    return { exists: true, path: relativeToNote };
   }
   
   // Determine content type and folder structure
@@ -165,11 +181,6 @@ function checkImageExists(imageSrc, filePath) {
     return { exists: true, path: publicPath };
   }
   
-  // Handle external URLs (don't check these)
-  if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
-    return { exists: true, path: imagePath };
-  }
-  
   return { exists: false, path: imagePath };
 }
 
@@ -178,7 +189,10 @@ function main() {
   console.log('🔍 Checking for missing images...\n');
   
   const contentDir = path.join(projectRoot, 'src', 'content');
-  const markdownFiles = getAllMarkdownFiles(contentDir);
+  const markdownFiles = PUBLISHABLE_COLLECTIONS.flatMap((collection) => {
+    const collectionDir = path.join(contentDir, collection);
+    return fs.existsSync(collectionDir) ? getAllMarkdownFiles(collectionDir) : [];
+  });
   
   let totalImages = 0;
   let missingImages = 0;
@@ -228,6 +242,8 @@ function main() {
   } else {
     console.log('✅ All images found!');
   }
+
+  process.exitCode = missingImages > 0 ? 1 : 0;
 }
 
 main();

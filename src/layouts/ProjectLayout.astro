@@ -218,7 +218,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
                   href={project.data.repositoryUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center justify-center px-2 py-2 text-sm text-primary-600 dark:text-primary-300 bg-primary-50 dark:bg-primary-800 rounded-lg border border-primary-200 dark:border-primary-700 hover:bg-highlight-100 dark:hover:bg-highlight-800 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200 hover:shadow-md"
+                  class="inline-flex items-center justify-center px-2 py-2 text-sm text-primary-700 dark:text-primary-300 bg-primary-50 dark:bg-primary-800 rounded-lg border border-primary-200 dark:border-primary-700 hover:bg-highlight-100 dark:hover:bg-highlight-800 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200 hover:shadow-md"
                   title="View Repository"
                 >
                   <Icon name={getRepositoryIcon(project.data.repositoryUrl)} class="w-4 h-4" />
@@ -240,7 +240,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
               )}
             </div>
 
-            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-primary-600 dark:text-primary-300 mb-6">
+            <div class="card-meta flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-primary-700 dark:text-primary-300 mb-6">
               {isValidDate(project.data.date) && (
                 <time datetime={project.data.date.toISOString()} class="font-medium">
                   <span class="hidden sm:inline">
@@ -272,7 +272,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
               <div class="flex flex-wrap gap-2 mb-8">
                 {project.data.categories.map((category: string) => (
                   <span
-                    class="text-xs text-primary-600 dark:text-primary-300 bg-primary-100 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700"
+                    class="tag-chip text-xs text-primary-700 dark:text-primary-300 bg-primary-100 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700"
                   >
                     {category}
                   </span>
@@ -283,7 +283,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
           </header>
 
           <!-- Article content -->
-          <div class="prose dark:prose-dark max-w-none" id="project-content">
+          <div class="prose reading-column dark:prose-dark max-w-none" id="project-content">
             <Content />
           </div>
 
@@ -446,7 +446,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
               .replace(/^-+|-+$/g, '');
 
             // Helper function to create slug from title (same as resolveWikilink logic)
-            const createSlugFromTitle = (title: string) => {
+            const createSlugFromTitle = (title) => {
               return title.toLowerCase()
                 .replace(/[^a-z0-9\s-]/g, '')
                 .replace(/\s+/g, '-')
