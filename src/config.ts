@@ -30,6 +30,7 @@ export interface SiteConfig {
     families: {
       body: string;
       heading: string;
+      ui: string;
       mono: string;
     };
     display: "swap" | "fallback" | "optional";
@@ -210,6 +211,8 @@ export const siteConfig: SiteConfig = {
       body: "Domine",      // Body text font family
       // [CONFIG:FONT_HEADING]
       heading: "Playfair Display", // Heading font family
+      // Interface labels, navigation, metadata, and controls
+      ui: "Source Sans 3",
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -498,6 +501,7 @@ export function getFontFamily(fontName: string): string {
     'Open Sans': "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Lato': "'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Poppins': "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    'Source Sans 3': "'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Source Sans Pro': "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Nunito': "'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Montserrat': "'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
@@ -518,10 +522,10 @@ export function getFontFamily(fontName: string): string {
   return fontMap[fontName] || `'${fontName}', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`;
 }
 
-export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string {
+export function getGoogleFontsUrl(headingFont: string, bodyFont: string, uiFont?: string): string {
   // Google Fonts that are commonly used and available
   const googleFonts = [
-    'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans Pro', 
+    'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans 3', 'Source Sans Pro', 
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
     'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code', 
@@ -536,6 +540,9 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
   }
   if (googleFonts.includes(bodyFont)) {
     fonts.add(bodyFont);
+  }
+  if (uiFont && googleFonts.includes(uiFont)) {
+    fonts.add(uiFont);
   }
   
   // If no Google Fonts are needed, return empty string

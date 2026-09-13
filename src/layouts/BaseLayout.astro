@@ -133,8 +133,8 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   <!-- Fonts with optimized loading -->
   {shouldLoadCdnFonts() && (
     <>
-      <link href={getGoogleFontsUrl(siteConfig.fonts.families.heading, siteConfig.fonts.families.body)} rel="stylesheet" media="print" onload="this.media='all'">
-      <noscript><link href={getGoogleFontsUrl(siteConfig.fonts.families.heading, siteConfig.fonts.families.body)} rel="stylesheet"></noscript>
+      <link href={getGoogleFontsUrl(siteConfig.fonts.families.heading, siteConfig.fonts.families.body, siteConfig.fonts.families.ui)} rel="stylesheet" media="print" onload="this.media='all'">
+      <noscript><link href={getGoogleFontsUrl(siteConfig.fonts.families.heading, siteConfig.fonts.families.body, siteConfig.fonts.families.ui)} rel="stylesheet"></noscript>
     </>
   )}
 
@@ -147,12 +147,14 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   <style define:vars={{
     fontHeading: getFontFamily(siteConfig.fonts.families.heading),
     fontProse: getFontFamily(siteConfig.fonts.families.body),
+    fontUi: getFontFamily(siteConfig.fonts.families.ui),
     fontMono: getFontFamily(siteConfig.fonts.families.mono),
     fontDisplay: getFontDisplay()
   }}>
     :root {
       --font-heading: var(--fontHeading);
       --font-prose: var(--fontProse);
+      --font-ui: var(--fontUi);
       --font-mono: var(--fontMono);
       --font-display: var(--fontDisplay);
     }
