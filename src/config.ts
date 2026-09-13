@@ -525,7 +525,7 @@ export function getFontFamily(fontName: string): string {
 export function getGoogleFontsUrl(headingFont: string, bodyFont: string, uiFont?: string): string {
   // Google Fonts that are commonly used and available
   const googleFonts = [
-    'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans 3', 'Source Sans Pro', 
+    'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans 3', 'Source Sans Pro',
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
     'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code', 
