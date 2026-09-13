@@ -415,7 +415,7 @@ kbd {
 }
 
 .btn-primary {
-  @apply bg-highlight-600 dark:bg-highlight-400 text-white dark:text-white border-highlight-600 dark:border-highlight-400;
+  @apply bg-highlight-600 dark:bg-highlight-400 text-white dark:text-primary-950 border-highlight-600 dark:border-highlight-400;
   transition: all 0.15s ease-out;
 }
 
@@ -1373,6 +1373,10 @@ svg:has(text:contains("mermaid version")) {
   @apply whitespace-nowrap;
   color: white !important;
   text-decoration: none !important;
+}
+
+.dark .pdf-embed .pdf-download-link {
+  color: rgb(var(--color-primary-950)) !important;
 }
 
 /* SVG embeds */

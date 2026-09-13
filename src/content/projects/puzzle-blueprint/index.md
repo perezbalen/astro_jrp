@@ -3,14 +3,14 @@ title: Puzzle Blueprint
 description: A web-based puzzle dependency chart editor for planning adventure-game puzzle, obstacles, clues, and rewards.
 date: 2026-09-13
 categories:
-  - videogames
 projectUrl: https://joserafaelperez.com/apps/puzzle-blueprint/
 status:
 hideTOC: true
 draft: false
 image: dependency.jpg
+tags:
+  - videogames
 ---
-
 ## Puzzle Blueprint
 
 Puzzle Blueprint is a visual editor for mapping the dependencies inside an adventure-game puzzle. It is inspired by the **Puzzle Dependency Charts** used by Ron Gilbert and other designers at Lucasfilm Games to design classic adventure games.
@@ -34,3 +34,7 @@ The editor runs as a standalone browser app. Graphs are saved locally in the bro
 Puzzle Blueprint is currently in **alpha**. It is still an early version so some things may not work as intended. And I'm sure there are bugs I haven't found. 
 
 The way graphs are stored or exported may also change between versions, so it is a good idea to export important graphs as JSON backups instead of relying only on browser storage.
+
+<a href="https://joserafaelperez.com/apps/puzzle-blueprint/" class="no-styling no-underline" target="_blank"><button class="btn btn-primary w-full">  
+    Puzzle Blueprint
+  </button></a>

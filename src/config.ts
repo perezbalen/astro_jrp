@@ -209,7 +209,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:FONT_BODY]
       body: "Domine",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Josefin Sans",   // Heading font family  
+      heading: "Playfair Display", // Heading font family
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -501,6 +501,7 @@ export function getFontFamily(fontName: string): string {
     'Source Sans Pro': "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Nunito': "'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Montserrat': "'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    'Bebas Neue': "'Bebas Neue', 'Arial Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Playfair Display': "'Playfair Display', Georgia, 'Times New Roman', serif",
     'Merriweather': "'Merriweather', Georgia, 'Times New Roman', serif",
     'Lora': "'Lora', Georgia, 'Times New Roman', serif",
@@ -524,7 +525,7 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
     'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code', 
-    'Domine', 'Josefin Sans'
+    'Domine', 'Josefin Sans', 'Bebas Neue'
   ];
   
   const fonts = new Set<string>();
@@ -545,7 +546,7 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
   // Generate Google Fonts URL
   const fontList = Array.from(fonts).map(font => {
     // Add common weights for each font
-    const weights = font.includes('Mono') ? '300;400;500;600;700' : '300;400;500;600;700';
+    const weights = font === 'Bebas Neue' ? '400' : '300;400;500;600;700';
     return `${font.replace(/\s+/g, '+')}:wght@${weights}`;
   }).join('&family=');
   

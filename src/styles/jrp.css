@@ -1,3 +1,32 @@
+/* Catppuccin Mocha dark palette. Light mode keeps the Catppuccin Latte ramp. */
+html.dark[data-theme="catppuccin"] {
+    /* Text, overlays, surfaces, base, and crust. */
+    --color-primary-50: 205 214 244 !important;
+    --color-primary-100: 186 194 222 !important;
+    --color-primary-200: 166 173 200 !important;
+    --color-primary-300: 147 153 178 !important;
+    --color-primary-400: 127 132 156 !important;
+    --color-primary-500: 108 112 134 !important;
+    --color-primary-600: 88 91 112 !important;
+    --color-primary-700: 69 71 90 !important;
+    --color-primary-800: 49 50 68 !important;
+    --color-primary-900: 30 30 46 !important;
+    --color-primary-950: 17 17 27 !important;
+
+    /* Lavender, sky, blue, and sapphire interactive states. */
+    --color-highlight-50: 205 214 244 !important;
+    --color-highlight-100: 180 190 254 !important;
+    --color-highlight-200: 137 220 235 !important;
+    --color-highlight-300: 137 220 235 !important;
+    --color-highlight-400: 137 180 250 !important;
+    --color-highlight-500: 116 199 236 !important;
+    --color-highlight-600: 116 199 236 !important;
+    --color-highlight-700: 88 91 112 !important;
+    --color-highlight-800: 69 71 90 !important;
+    --color-highlight-900: 49 50 68 !important;
+    --color-highlight-950: 30 30 46 !important;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
@@ -56,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-logo {
-    font-family: "Josefin Sans", sans-serif !important;
+    font-family: var(--font-heading) !important;
     text-transform: uppercase;
     font-size: clamp(0.8rem, 1vw + 0.35rem, 1rem) !important;
     letter-spacing: 0.035em;
