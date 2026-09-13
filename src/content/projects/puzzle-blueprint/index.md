@@ -4,9 +4,8 @@ description: A web-based puzzle dependency chart editor for planning adventure-g
 date: 2026-09-13
 categories:
   - videogames
-  - game design
 projectUrl: https://joserafaelperez.com/apps/puzzle-blueprint/
-status: completed
+status:
 hideTOC: true
 draft: false
 image: dependency.jpg
