@@ -4,7 +4,7 @@ date: 2025-12-09
 description: During a recent playthrough of Full Throttle, I had an important realization about my game design approach. My puzzles had grown unnecessarily complex, with intricate logic that not only made development challenging but also raised questions about player enjoyment.
 tags:
   - videogames
-image: projects/point-and-click-puzzle-structure/full-throttle-1.jpg
+image: full-throttle-1.jpg
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
