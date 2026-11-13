@@ -22,7 +22,7 @@ export interface SiteConfig {
   defaultOgImageAlt: string;
   
   // Global Settings
-  theme: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom";
+  theme: "minimal" | "oxygen" | "atom" | "atom-sea" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom";
   customThemeFile?: string; // Filename in src/themes/custom/ (e.g., "my-cool-theme" for my-cool-theme.ts)
   availableThemes: "default" | Array<string>; // Control which themes users can select - "default" shows all built-in themes, array can include custom theme filenames
   fonts: {
@@ -198,7 +198,7 @@ export const siteConfig: SiteConfig = {
 
   // Global Settings
   // [CONFIG:THEME]
-  theme: "catppuccin", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
+  theme: "atom-sea", // Available themes: "minimal" | "oxygen" | "atom" | "atom-sea" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
   // [CONFIG:CUSTOM_THEME_FILE]
   customThemeFile: "yellow-theme", // Only used if theme is set to "custom" above. Filename in src/themes/custom/ (without .ts extension)
   // [CONFIG:AVAILABLE_THEMES]
@@ -314,9 +314,9 @@ export const siteConfig: SiteConfig = {
     showMobileMenu: true,
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
-      { title: "Lecturas Complementarias", url: "/posts/" },
-      { title: "Videogames", url: "/projects/" },
-      { title: "About", url: "/about/" }
+      { title: "Lecturas complementarias", url: "/posts/" },
+      { title: "Videojuegos", url: "/projects/" },
+      { title: "Acerca de", url: "/about/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
@@ -450,7 +450,7 @@ export function getContentWidth(): string {
   return siteConfig.layout.contentWidth;
 }
 
-export function getTheme(): "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom" {
+export function getTheme(): "minimal" | "oxygen" | "atom" | "atom-sea" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom" {
   return siteConfig.theme;
 }
 
@@ -620,9 +620,9 @@ function validateSiteConfig(config: SiteConfig): { isValid: boolean; errors: str
   }
 
   // Theme validation
-  const validThemes = ['minimal', 'oxygen', 'atom', 'ayu', 'catppuccin', 'charcoal', 'dracula', 'everforest', 'flexoki', 'gruvbox', 'macos', 'nord', 'obsidian', 'rose-pine', 'sky', 'solarized', 'things', 'custom'];
+  const validThemes = ['minimal', 'oxygen', 'atom', 'atom-sea', 'ayu', 'catppuccin', 'charcoal', 'dracula', 'everforest', 'flexoki', 'gruvbox', 'macos', 'nord', 'obsidian', 'rose-pine', 'sky', 'solarized', 'things', 'custom'];
   if (!validThemes.includes(config.theme)) {
-    errors.push(`Invalid theme selected: "${config.theme}". Choose from: Minimal, Oxygen, Atom, Ayu, Catppuccin, Charcoal, Dracula, Everforest, Flexoki, Gruvbox, macOS, Nord, Obsidian, Rose Pine, Sky, Solarized, or Things. For custom themes, use "custom" and set customThemeFile.`);
+    errors.push(`Invalid theme selected: "${config.theme}". Choose from: Minimal, Oxygen, Atom, Atom Sea, Ayu, Catppuccin, Charcoal, Dracula, Everforest, Flexoki, Gruvbox, macOS, Nord, Obsidian, Rose Pine, Sky, Solarized, or Things. For custom themes, use "custom" and set customThemeFile.`);
   }
   if (config.theme === 'custom') {
     if (!config.customThemeFile || config.customThemeFile.trim() === '') {

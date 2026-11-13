@@ -9,12 +9,15 @@ interface Props {
   post: CollectionEntry<'posts'>;
   featured?: boolean;
   eager?: boolean;
+  compact?: boolean;
   context?: 'featured' | 'recent' | 'posts' | 'tags';
 }
 
-const { post, featured = false, eager = false, context = 'posts' } = Astro.props;
+const { post, featured = false, eager = false, context = 'posts', compact = false } = Astro.props;
 
 // Get reading time and word count from markdown processing
+const isHomeCard = context === 'featured' || context === 'recent';
+const homeDate = new Intl.DateTimeFormat(siteConfig.language, { dateStyle: 'medium', timeZone: 'UTC' });
 const { excerpt, wordCount } = processMarkdown(post.body || '');
 const readingTime = calculateReadingTime(post.body || '');
 
@@ -81,8 +84,8 @@ const shouldShowCoverImage = (() => {
 ---
 
 <article class={`group relative ${featured ? 'featured-post' : 'post-card'}`} aria-labelledby={`post-title-${post.id}`}>
-  {image && shouldShowCoverImage && (
-    <div class="overflow-hidden rounded-t-lg bg-primary-100 dark:bg-primary-800" style={`aspect-ratio: ${getPostCardAspectRatio()};`}>
+  {image && shouldShowCoverImage && !compact && (
+    <div class="overflow-hidden rounded-t-lg bg-primary-100 dark:bg-primary-800" style={`aspect-ratio: ${isHomeCard ? "2.6" : getPostCardAspectRatio()};`}>
       <ImageWrapper
           src={(() => {
             // Clean the image path by removing Obsidian brackets
@@ -155,14 +158,14 @@ const shouldShowCoverImage = (() => {
     </div>
   )}
 
-  <div class={`p-4 sm:p-5 ${image && shouldShowCoverImage ? 'rounded-b-lg' : 'rounded-lg'}`}>
+  <div class={`p-4 sm:p-5 ${image && shouldShowCoverImage && !compact ? 'rounded-b-lg' : 'rounded-lg'}`}>
       <div class="card-meta flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm text-primary-700 dark:text-primary-400 mb-2">
         <time datetime={date.toISOString()}>
-          <span class="hidden sm:inline">{formatDate(date)}</span>
-          <span class="sm:hidden">{formatDateMobile(date)}</span>
+          <span class="hidden sm:inline">{isHomeCard ? homeDate.format(date) : formatDate(date)}</span>
+          <span class="sm:hidden">{isHomeCard ? homeDate.format(date) : formatDateMobile(date)}</span>
         </time>
 
-        {siteConfig.postOptions.readingTime && readingTime && (
+        {!isHomeCard && siteConfig.postOptions.readingTime && readingTime && (
           <>
             <span class="text-primary-300 dark:text-primary-600 hidden sm:inline">•</span>
             <span class="text-primary-300 dark:text-primary-600 sm:hidden">•</span>
@@ -173,7 +176,7 @@ const shouldShowCoverImage = (() => {
           </>
         )}
 
-        {siteConfig.postOptions.wordCount && wordCount !== undefined && (
+        {!isHomeCard && siteConfig.postOptions.wordCount && wordCount !== undefined && (
           <>
             <span class="text-primary-300 dark:text-primary-600 hidden sm:inline">•</span>
             <span class="text-primary-300 dark:text-primary-600 sm:hidden">•</span>
@@ -195,7 +198,7 @@ const shouldShowCoverImage = (() => {
         <a
           href={`/posts/${post.id}`}
           class="stretched-card-link text-inherit hover:text-inherit"
-          aria-label={`View post: ${title}`}
+          aria-label={title}
         >
           {title}
         </a>
@@ -209,7 +212,7 @@ const shouldShowCoverImage = (() => {
 
       {tags && tags.length > 0 && siteConfig.postOptions.tags && (
         <div class="relative z-10 mt-4 flex flex-wrap gap-2">
-          {tags.slice(0, 3).map((tag) => (
+          {tags.slice(0, isHomeCard ? 2 : 3).map((tag) => (
             <a
               href={`/posts/tag/${tag}`}
               class="tag-chip inline-flex text-xs text-primary-700 dark:text-primary-300 bg-primary-100 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700 transition-colors hover:bg-highlight-100 dark:hover:bg-highlight-800"
@@ -218,7 +221,7 @@ const shouldShowCoverImage = (() => {
               {formatTagLabel(tag)}
             </a>
           ))}
-          {tags.length > 3 && (
+          {!isHomeCard && tags.length > 3 && (
             <span 
               class="tag-chip inline-flex text-xs text-primary-700 dark:text-primary-400 bg-primary-50 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700"
               aria-label={`${tags.length - 3} etiquetas adicionales`}

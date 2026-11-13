@@ -120,6 +120,18 @@ export const themes = {
       900: '#0c4a6e',
     }
   },
+  'atom-sea': {
+    primary: {
+      50: '#f5f7f7', 100: '#e5ebed', 200: '#d4dee2', 300: '#b9c8ce',
+      400: '#94a8b1', 500: '#718892', 600: '#536a75', 700: '#3c515e',
+      800: '#293b48', 900: '#22313d', 950: '#192630',
+    },
+    highlight: {
+      50: '#eff8f6', 100: '#d9efea', 200: '#bce1d9', 300: '#a0cec4',
+      400: '#82b9ae', 500: '#659e94', 600: '#427e75', 700: '#32655e',
+      800: '#284f4a', 900: '#203f3b', 950: '#162e2b',
+    },
+  },
   ayu: {
     primary: {
       50: '#fefefe',
@@ -517,7 +529,7 @@ export function getThemeNames(): ThemeName[] {
 // Check if a theme name is a custom theme (not in built-in themes)
 export function isCustomTheme(themeName: string): boolean {
   const builtInThemes = [
-    'minimal', 'oxygen', 'atom', 'ayu', 'catppuccin', 'charcoal', 'dracula', 
+    'minimal', 'oxygen', 'atom', 'atom-sea', 'ayu', 'catppuccin', 'charcoal', 'dracula',
     'everforest', 'flexoki', 'gruvbox', 'macos', 'nord', 'obsidian', 
     'rose-pine', 'sky', 'solarized', 'things', 'custom'
   ];

@@ -121,8 +121,7 @@ image: {
         behavior: 'wrap',
         test: (node) => node.tagName !== 'h1',
         properties: {
-          className: ['anchor-link'],
-          ariaLabel: 'Link to this section'
+          className: ['anchor-link']
         }
       }],
       rehypeNormalizeAnchors, // Run LAST to ensure className and href fixes aren't overridden

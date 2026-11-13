@@ -55,7 +55,7 @@ const allTags = extractTags(sortedPosts);
 // Generate SEO data
 const pageTitle = selectedTag
   ? `Posts tagged "${selectedTag}"`
-  : (postsPageData?.data.title || 'All Posts');
+  : 'Lecturas complementarias';
 const pageDescription = selectedTag
   ? `All posts tagged with "${selectedTag}"`
   : (postsPageData?.data.description || `Browse all ${totalPosts} posts on ${siteConfig.title}`);

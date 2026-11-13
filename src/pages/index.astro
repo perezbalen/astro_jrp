@@ -197,6 +197,20 @@ const structuredData = {
         </article>
       ) : processedPosts.length > 0 ? (
         <>
+          <header class="mb-10 border-b border-primary-200 pb-8 pt-3 dark:border-primary-700 sm:mb-12 sm:pb-10 sm:pt-6">
+            <h1 class="font-semibold leading-none tracking-tight text-primary-900 dark:text-primary-50">
+              <span class="block text-2xl sm:text-4xl">Recursos de</span>
+              <span class="block text-[clamp(2rem,8.8vw,5.75rem)]">cinematografía</span>
+            </h1>
+            <p class="mt-3 max-w-prose text-base text-primary-700 dark:text-primary-300 sm:text-lg">
+              Lecturas y tutoriales sobre cámara, iluminación y postproducción.
+            </p>
+            <nav aria-label="Explorar el sitio" class="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium">
+              <a class="inline-flex min-h-11 items-center rounded-lg bg-primary-800 px-4 font-semibold text-primary-50 hover:bg-primary-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-highlight-600 dark:bg-primary-200 dark:text-primary-950 dark:hover:bg-primary-100" href="/posts/">Ver lecturas de cinematografía</a>
+              {hasProjects && <a class="home-text-link inline-flex min-h-11 items-center text-primary-700 underline underline-offset-4 dark:text-primary-300" href="/projects/">Ver proyectos de videojuegos</a>}
+            </nav>
+          </header>
+
           <!-- Home blurb above posts -->
           {siteConfig.homeOptions.blurb.placement === 'above' && HomeBlurbContent && (
             <section class="prose prose-sm dark:prose-dark max-w-none mb-16">
@@ -207,7 +221,7 @@ const structuredData = {
           <!-- Featured post -->
           {siteConfig.homeOptions.featuredPost.enabled && featuredPost && (
             <section class="mb-12">
-              <div class="flex items-center justify-between mb-6">
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4 sm:mb-6">
                 <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
                   {siteConfig.homeOptions.featuredPost.type === "latest" ? "Latest Post" : "Featured Post"}
                 </h2>
@@ -221,15 +235,15 @@ const structuredData = {
           {siteConfig.homeOptions.recentPosts.enabled && previewPosts.length > 0 && (
             <section class="mb-12">
               {!useSpecialTreatment && (
-                <div class="flex items-center justify-between mb-6">
+                <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4 sm:mb-6">
                   <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
-                    Recent Posts
+                    Lecturas recientes
                   </h2>
                   <a
-                    href="/posts"
-                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    href="/posts/"
+                    class="home-text-link inline-flex min-h-11 items-center text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
-                    View all posts →
+                    Todas las lecturas →
                   </a>
                 </div>
               )}
@@ -237,7 +251,7 @@ const structuredData = {
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {previewPosts.map((post, index) => (
                   <div class={index === 0 ? 'md:col-span-2' : ''}>
-                    <PostCard post={post} eager={featuredPost ? index === 0 : index < 2} context="recent" />
+                    <PostCard post={post} eager={featuredPost ? index === 0 : index < 2} context="recent" compact={Boolean(featuredPost) || index > 0} />
                   </div>
                 ))}
               </div>
@@ -245,10 +259,10 @@ const structuredData = {
               {useSpecialTreatment && (
                 <div class="mt-8 text-center">
                   <a
-                    href="/posts"
-                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    href="/posts/"
+                    class="home-text-link inline-flex min-h-11 items-center text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
-                    View all posts →
+                    Todas las lecturas →
                   </a>
                 </div>
               )}
@@ -261,13 +275,13 @@ const structuredData = {
               {!useSpecialTreatment && (
                 <div class="flex items-center justify-between mb-6">
                   <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary-900 dark:text-primary-50">
-                    Projects
+                    Proyectos de videojuegos
                   </h2>
                   <a
-                    href="/projects"
-                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    href="/projects/"
+                    class="home-text-link inline-flex min-h-11 items-center text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
-                    View all projects →
+                    Todos los proyectos →
                   </a>
                 </div>
               )}
@@ -281,10 +295,10 @@ const structuredData = {
               {useSpecialTreatment && (
                 <div class="mt-8 text-center">
                   <a
-                    href="/projects"
-                    class="text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
+                    href="/projects/"
+                    class="home-text-link inline-flex min-h-11 items-center text-sm text-primary-700 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
                   >
-                    View all projects →
+                    Todos los proyectos →
                   </a>
                 </div>
               )}
@@ -361,27 +375,8 @@ const structuredData = {
   </main>
 </BaseLayout>
 
-<script>
-  // Hero search button functionality
-  document.addEventListener('DOMContentLoaded', () => {
-    const heroSearchButton = document.getElementById('hero-search-button');
-
-    if (heroSearchButton) {
-      heroSearchButton.addEventListener('click', () => {
-        const event = new CustomEvent('openCommandPalette');
-        window.dispatchEvent(event);
-      });
-    }
-  });
-</script>
-
 <style>
-  /* Enhanced homepage styles */
-  .btn-primary {
-    @apply inline-flex items-center px-6 py-3 font-medium rounded-lg transition-all duration-200 hover:shadow-lg transform hover:scale-105;
-  }
-
-  .btn-primary:focus-visible {
-    @apply outline-none ring-2 ring-highlight-500 ring-offset-2;
+  .home-text-link:focus-visible {
+    @apply rounded-sm outline outline-2 outline-offset-4 outline-highlight-600 dark:outline-highlight-300;
   }
 </style>
