@@ -3,7 +3,7 @@ title: "Relación de aspecto y formatos de exhibición: decisiones creativas par
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - dirección_de_arte
   - cinematografía
   - composición

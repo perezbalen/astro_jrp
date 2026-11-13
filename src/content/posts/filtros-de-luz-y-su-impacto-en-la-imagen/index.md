@@ -3,7 +3,7 @@ title: Filtros de luz y su impacto en la imagen
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - cinematografía
   - iluminación
   - técnicas_de_rodaje

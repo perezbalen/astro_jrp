@@ -1,5 +1,5 @@
 ---
-title: Camara Lenta A6400
+title: Cámara lenta A6400
 date: 2026-04-27
 description: ""
 tags:

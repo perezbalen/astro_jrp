@@ -1,6 +1,6 @@
 ---
 title: jrp About
-description: Learn more about Astro Modular and the philosophy behind its design approach.
+description: Learn about José Rafael Pérez and his work in filmmaking and film education.
 noIndex: false
 hideTOC: false
 draft: false

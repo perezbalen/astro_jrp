@@ -3,7 +3,7 @@ title: Cómo se editaba video antes del computador
 date: 2020-12-09
 description: Explorar los orígenes de la edición de video implica volver al trabajo físico con película y cintas magnéticas, mucho antes de las líneas de tiempo digitales. El material se cortaba, pegaba y copiaba de forma manual, usando moviolas, mesas de edición y grabadoras de cinta.
 tags:
-  - teroría
+  - teoría
 image: cmo-se-editaba-video-antes-del-computador.png
 imageAlt:
 imageOG: true

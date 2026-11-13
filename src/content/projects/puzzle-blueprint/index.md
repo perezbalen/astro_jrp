@@ -1,6 +1,6 @@
 ---
 title: Puzzle Blueprint
-description: A web-based puzzle dependency chart editor for planning adventure-game puzzle, obstacles, clues, and rewards.
+description: A web-based puzzle dependency chart editor for planning adventure-game puzzles, obstacles, clues, and rewards.
 date: 2026-09-13
 categories:
 projectUrl: https://joserafaelperez.com/apps/puzzle-blueprint/

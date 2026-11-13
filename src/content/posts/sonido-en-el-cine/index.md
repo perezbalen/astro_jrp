@@ -3,7 +3,7 @@ title: Sonido en el Cine
 date: 2022-06-09
 description: El video ofrece una explicación introductoria sobre el papel del sonido en la producción cinematográfica. Presenta de forma sencilla los principales tipos de sonido que se utilizan en una película, como diálogos, música, ambientes y efectos, y muestra cómo se combinan para construir la banda sonora.
 tags:
-  - teroría
+  - teoría
 image: sonido-en-el-cine.jpg
 imageAlt: ""
 imageOG: false

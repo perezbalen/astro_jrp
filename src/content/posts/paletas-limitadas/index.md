@@ -3,7 +3,7 @@ title: Paletas limitadas y cohesión cromática en cine
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - color
   - dirección_de_arte
   - cinematografía

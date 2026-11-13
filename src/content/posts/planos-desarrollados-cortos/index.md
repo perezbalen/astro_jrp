@@ -3,7 +3,7 @@ title: Planos desarrollados cortos
 date: 2022-04-27
 description: El plano desarrollado o plano secuencia suele asociarse con tomas larguísimas que cubren una escena completa, pero en realidad es una herramienta mucho más flexible. Puede durar solo unos segundos, acompañar un gesto preciso o un desplazamiento
 tags:
-  - teroría
+  - teoría
 image: planos-desarrollados-cortos.png
 imageAlt: ""
 imageOG: false

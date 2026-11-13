@@ -3,7 +3,7 @@ title: Distancia Focal
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - cinematografía
   - óptica
   - lenguaje_visual

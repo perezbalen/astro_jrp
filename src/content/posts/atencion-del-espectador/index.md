@@ -3,7 +3,7 @@ title: "Dirección de la atención del espectador: guiar la mirada dentro del pl
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - puesta_en_escena
   - composición
   - cinematografía

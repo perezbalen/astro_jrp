@@ -1,9 +1,9 @@
 ---
-title: "Sensores Full Frame vs Super 35:Sensores Full Frame vs Super 35: campo de visión, profundidad de campo y compatibilidad de lentes"
+title: "Sensores Full Frame vs Super 35: campo de visión, profundidad de campo y compatibilidad de lentes"
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - cámara
   - cinematografía
   - óptica

@@ -3,7 +3,7 @@ title: "Formatos de película: definición técnica y consecuencias visuales"
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - historia
   - cinematografía
 image: ../../posts/thumbnails/youtube/fAZyZkLzs0M.webp

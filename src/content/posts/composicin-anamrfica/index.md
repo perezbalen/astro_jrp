@@ -3,7 +3,7 @@ title: Composición Anamórfica
 date: 2023-09-19
 description: La Ley de Tercios es una técnica ampliamente reconocida para enmarcar imágenes. Imagina el encuadre dividido en tres secciones iguales tanto horizontal como verticalmente, o simplemente utiliza la cuadrícula de tu cámara
 tags:
-  - teroría
+  - teoría
 image: composicin-anamrfica.jpg
 imageAlt: ""
 imageOG: false

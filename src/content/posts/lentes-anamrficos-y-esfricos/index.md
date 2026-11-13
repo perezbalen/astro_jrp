@@ -3,7 +3,7 @@ title: Lentes anamórficos y esféricos
 date: 2021-08-23
 description: Los lentes anamórficos y esféricos ofrecen maneras distintas de construir la imagen y el espacio en pantalla. Los esféricos mantienen proporciones más “naturales”, con menos distorsión y mayor nitidez uniforme.
 tags:
-  - teroría
+  - teoría
 image: lentes-anamrficos-y-esfricos.jpg
 imageAlt: ""
 imageOG: false

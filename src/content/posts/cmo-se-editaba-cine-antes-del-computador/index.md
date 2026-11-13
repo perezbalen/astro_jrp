@@ -3,7 +3,7 @@ title: Cómo se editaba cine antes del computador
 date: 2021-04-09
 description: "Los procesos de montaje de celuloide, predominantes en el siglo XX, implicaban trabajar físicamente con la película: cortar, empalmar y pegar cada plano a mano. El material se clasificaba, numeraba y colgaba en tiras."
 tags:
-  - teroría
+  - teoría
 image: como-se-editaba-cine.png
 imageAlt: Fight Club
 imageOG: false

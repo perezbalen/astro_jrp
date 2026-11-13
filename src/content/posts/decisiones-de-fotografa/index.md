@@ -3,7 +3,7 @@ title: Decisiones fotográficas para lograr una imagen cinematográfica
 date: 2026-01-18
 description: ""
 tags:
-  - teroría
+  - teoría
   - cinematografía
   - óptica
   - cámara

@@ -6,7 +6,7 @@ tags:
   - cinematografía
   - iluminación
   - tutorial
-  - teroría
+  - teoría
 image: ../../posts/thumbnails/youtube/gfEGuSy-8zA.webp
 imageAlt: ""
 imageOG: false
