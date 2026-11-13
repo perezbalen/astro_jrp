@@ -5,6 +5,7 @@
  */
 
 import { spawn } from 'node:child_process';
+import { createRequire } from 'node:module';
 import { createServer } from 'node:net';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -52,15 +53,13 @@ async function main() {
   
   const port = await getAvailablePort();
   
-  // Use pnpm exec to ensure we use the local Astro installation
-  // On Windows, use 'pnpm.cmd', on Unix use 'pnpm'
-  const pnpmCmd = process.platform === 'win32' ? 'pnpm.cmd' : 'pnpm';
+  const require = createRequire(import.meta.url);
+  const astroManifest = require.resolve('astro/package.json');
+  const astroCli = path.resolve(path.dirname(astroManifest), require(astroManifest).bin.astro);
   
-  // Spawn astro with the detected port
-  const astroProcess = spawn(pnpmCmd, ['exec', 'astro', command, '--host', 'localhost', '--port', port.toString()], {
+  const astroProcess = spawn(process.execPath, [astroCli, command, '--host', 'localhost', '--port', port.toString()], {
     cwd: projectRoot,
-    stdio: 'inherit',
-    shell: true
+    stdio: 'inherit'
   });
   
   astroProcess.on('error', (error) => {
